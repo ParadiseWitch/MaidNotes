@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "未命名.md",
+            "file": "Journal/2022/2022.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "未命名.md",
+                "file": "Journal/2022/2022.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "未命名.md",
+                "file": "Journal/2022/2022.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名.md"
+                "file": "Journal/2022/2022.md"
               }
             }
           },
@@ -152,15 +152,15 @@
   },
   "active": "5dd08362c813f11b",
   "lastOpenFiles": [
-    "Journal/2022/2022.md",
-    "Journal/2022/W28/2022-07-12.md",
-    "Journal/2022/W29/2022-07-20.md",
     "Journal/2022/W28/2022-W28.md",
+    "未命名.md",
+    "Templates/Daily.md",
+    "Journal/2022/W28/2022-07-12.md",
+    "Journal/2022/2022.md",
+    "Journal/2022/W29/2022-07-20.md",
     "Templates/Monthly.md",
     "Templates/Metadata.md",
-    "Templates/Daily.md",
     "Journal/2022/2022-07.md",
-    "${moment(tp.file.title).format('YYYY')}.md",
-    "Templates/Weekly.md"
+    "${moment(tp.file.title).format('YYYY')}.md"
   ]
 }
