@@ -4,16 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "acd9732f325fd835",
+        "id": "5dd08362c813f11b",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Journal/2022/W29/2022-07-20.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -78,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journal/2022/W29/2022-07-20.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Journal/2022/W29/2022-07-20.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,9 +110,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Journal/2022/W29/2022-07-20.md"
-              }
+              "state": {}
             }
           },
           {
@@ -144,17 +135,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "acd9732f325fd835",
+  "active": "5dd08362c813f11b",
   "lastOpenFiles": [
+    "Journal/2022/W29/2022-07-20.md",
+    "Journal/2022/W28/2022-W28.md",
     "Templates/Monthly.md",
     "Templates/Metadata.md",
     "Templates/Daily.md",
     "Journal/2022/2022-07.md",
-    "Journal/2022/W29/2022-07-20.md",
     "Journal/2022/W28/2022-07-12.md",
     "${moment(tp.file.title).format('YYYY')}.md",
     "Journal/2022/2022.md",
-    "Templates/Weekly.md",
-    "未命名.md"
+    "Templates/Weekly.md"
   ]
 }
