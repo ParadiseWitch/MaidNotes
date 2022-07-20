@@ -7,8 +7,13 @@
         "id": "5dd08362c813f11b",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "未命名.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
         }
       }
     ],
@@ -56,7 +61,7 @@
     "type": "split",
     "children": [
       {
-        "id": "b2adebeb51f5f368",
+        "id": "6bf995a313c72b20",
         "type": "tabs",
         "children": [
           {
@@ -66,13 +71,20 @@
               "type": "calendar",
               "state": {}
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "b2adebeb51f5f368",
+        "type": "tabs",
+        "children": [
           {
             "id": "bb40f79d7918a3c2",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +123,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "未命名.md"
+              }
             }
           },
           {
@@ -137,15 +152,15 @@
   },
   "active": "5dd08362c813f11b",
   "lastOpenFiles": [
+    "Journal/2022/2022.md",
+    "Journal/2022/W28/2022-07-12.md",
     "Journal/2022/W29/2022-07-20.md",
     "Journal/2022/W28/2022-W28.md",
     "Templates/Monthly.md",
     "Templates/Metadata.md",
     "Templates/Daily.md",
     "Journal/2022/2022-07.md",
-    "Journal/2022/W28/2022-07-12.md",
     "${moment(tp.file.title).format('YYYY')}.md",
-    "Journal/2022/2022.md",
     "Templates/Weekly.md"
   ]
 }
