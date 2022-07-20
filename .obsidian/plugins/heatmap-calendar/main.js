@@ -120,7 +120,10 @@ var HeatmapCalendar = class extends import_obsidian.Plugin {
           }, e);
           const colorIntensities = (_a2 = colors[e.color]) != null ? _a2 : colors[Object.keys(colors)[0]];
           const numOfColorIntensities = Object.keys(colorIntensities).length;
-          newEntry.intensity = Math.round(this.map(newEntry.intensity, intensityScaleStart, intensityScaleEnd, 1, numOfColorIntensities));
+          if (minimumIntensity === maximumIntensity)
+            newEntry.intensity = minimumIntensity;
+          else
+            newEntry.intensity = Math.round(this.map(newEntry.intensity, intensityScaleStart, intensityScaleEnd, 1, numOfColorIntensities));
           mappedEntries[this.getHowManyDaysIntoYear(new Date(e.date))] = newEntry;
         });
         const firstDayOfYear = new Date(Date.UTC(year, 0, 1));
