@@ -4,11 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f7e48b594dd818ab",
+        "id": "3ec923a2871aa485",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Journal/2022/W28/2022-07-12.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
         }
       }
     ],
@@ -49,7 +54,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 252.5031967163086
   },
   "right": {
     "id": "5ddb3ee45eb87c1c",
@@ -73,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Journal/2022/W28/2022-07-12.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Journal/2022/W28/2022-07-12.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +117,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Journal/2022/W28/2022-07-12.md"
+              }
             }
           },
           {
@@ -129,17 +138,22 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
-  "active": "65abd180a6eb9ebd",
+  "active": "3ec923a2871aa485",
   "lastOpenFiles": [
-    "Journal/2022/W29/2022-07-20.md",
+    "Templates/Weekly.md",
+    "Templates/Monthly.md",
+    "Templates/Metadata.md",
+    "Templates/Daily.md",
     "Journal/2022/W28/2022-07-12.md",
+    "Journal/2022/W29/2022-07-20.md",
+    "Journal/2022/2022-07.md",
+    "未命名.md",
     "Journal/2022/W28/2022-W28.md"
   ]
 }
