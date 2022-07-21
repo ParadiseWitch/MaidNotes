@@ -37,11 +37,25 @@ sha256:07e33465974800ce65751acc279adc6ed2dc5ed4e0838f8b86f0c87aa1795214
 
 # [使用 Dockerfile 定制镜像](https://yeasy.gitbook.io/docker_practice/image/build)
 [Docker Dockerfile | 菜鸟教程](https://www.runoob.com/docker/docker-dockerfile.html)
+
+## build命令
 ```bash
 docker build [选项] <上下文路径/URL/->
 
 # example
 docker build -t nginx:v3 .
+# 直接用 Git repo 进行构建
 docker build -t hello-world https://github.com/docker-library/hello-world.git#master:amd64/hello-world
+# 用给定的 tar 压缩包构建
+docker build http://server/context.tar.gz
+# 从标准输入中读取 Dockerfile 进行构建
+docker build - < Dockerfile
+# 或者
+cat Dockerfile | docker build -
+# 从标准输入中读取上下文压缩包进行构建
+docker build - < context.tar.gz
 ```
+
+## [Dockfile指令](https://yeasy.gitbook.io/docker_practice/image/dockerfile)
+
 
