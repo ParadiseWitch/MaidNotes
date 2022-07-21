@@ -5,7 +5,7 @@
   "attachmentFolderPath": "./Attachments",
   "showUnsupportedFiles": true,
   "alwaysUpdateLinks": true,
-  "showLineNumber": false,
+  "showLineNumber": true,
   "autoConvertHtml": false,
   "autoPairBrackets": true,
   "autoPairMarkdown": true,
@@ -16,5 +16,6 @@
     "downscalePercent": 100
   },
   "promptDelete": false,
-  "readableLineLength": false
+  "readableLineLength": false,
+  "vimMode": true
 }

@@ -1,14 +1,14 @@
 {
-  "baseFontSize": 13,
+  "baseFontSize": 14,
   "theme": "obsidian",
   "translucency": false,
-  "cssTheme": "Shimmering Focus",
+  "cssTheme": "California Coast",
   "enabledCssSnippets": [
     "diygod",
     "supercharged-links-gen"
   ],
   "interfaceFontFamily": "",
   "textFontFamily": "",
-  "monospaceFontFamily": "Fira Code",
+  "monospaceFontFamily": "",
   "baseFontSizeAction": false
 }
