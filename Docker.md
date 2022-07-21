@@ -17,6 +17,7 @@ Docker 镜像 是一个特殊的文件系统，除了提供容器运行时所需
 数据卷的生存周期独立于容器，容器消亡，数据卷不会消亡。因此，使用数据卷后，容器删除或者重新运行之后，数据却不会丢失。
 
 # [利用 commit 理解镜像构成](https://yeasy.gitbook.io/docker_practice/image/commit)
+## commit命令
 ```bash
 docker commit [选项] <容器ID或容器名> [<仓库名>[:<标签>]]
 
@@ -28,7 +29,19 @@ docker commit \
 sha256:07e33465974800ce65751acc279adc6ed2dc5ed4e0838f8b86f0c87aa1795214
 ```
 其中 `--author` 是指定修改的作者，而 `--message` 则是记录本次修改的内容。这点和 git 版本控制相似，不过这里这些信息可以省略留空。
+
+## 谨慎使用docker commit
 > 使用 `docker commit` 命令虽然可以比较直观的帮助理解镜像分层存储的概念，但是实际环境中并不会这样使用。
 > 1. 除了自己真正想要修改的东西以外，你可能还会commit其他你不想提交的文件
-> 2. 使用 docker commit 意味着所有对镜像的操作都是黑箱操作，生成的镜像也被称为 黑箱镜像，换句话说，就是除了制作镜像的人知道执行过什么命令、怎么生成的镜像，别人根本无从得知。而且，即使是这个制作镜像的人，过一段时间后也无法记清具体的操作。这种黑箱镜像的维护工作是非常痛苦的。
+> 2. 使用 `docker commit` 意味着所有对镜像的操作都是黑箱操作，生成的镜像也被称为 **黑箱镜像**，换句话说，就是除了制作镜像的人知道执行过什么命令、怎么生成的镜像，别人根本无从得知。而且，即使是这个制作镜像的人，过一段时间后也无法记清具体的操作。这种黑箱镜像的维护工作是非常痛苦的。
+
+# [使用 Dockerfile 定制镜像](https://yeasy.gitbook.io/docker_practice/image/build)
+[Docker Dockerfile | 菜鸟教程](https://www.runoob.com/docker/docker-dockerfile.html)
+```bash
+docker build [选项] <上下文路径/URL/->
+
+# example
+docker build -t nginx:v3 .
+docker build -t hello-world https://github.com/docker-library/hello-world.git#master:amd64/hello-world
+```
 
