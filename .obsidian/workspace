@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Linux.md",
+            "file": "Docker.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux.md",
+                "file": "Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux.md",
+                "file": "Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux.md"
+                "file": "Docker.md"
               }
             }
           },
@@ -151,8 +151,9 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "7f1fb899688dfcb4",
+  "active": "5dd08362c813f11b",
   "lastOpenFiles": [
+    "Linux.md",
     "Maid.md",
     "Journal/2022/W29/2022-07-21.md",
     "Journal/2022/2022-07.md",
@@ -161,7 +162,6 @@
     "Templates/Daily.md",
     "Journal/2022/W28/2022-07-12.md",
     "Journal/2022/W29/2022-07-20.md",
-    "Templates/Monthly.md",
-    "Templates/Metadata.md"
+    "Templates/Monthly.md"
   ]
 }
