@@ -1,8 +1,8 @@
 {
-  "baseFontSize": 16,
-  "theme": "system",
+  "baseFontSize": 13,
+  "theme": "obsidian",
   "translucency": false,
-  "cssTheme": "California Coast",
+  "cssTheme": "Shimmering Focus",
   "enabledCssSnippets": [
     "diygod",
     "supercharged-links-gen"
