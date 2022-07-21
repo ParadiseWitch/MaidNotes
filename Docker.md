@@ -12,4 +12,8 @@ Docker 镜像 是一个特殊的文件系统，除了提供容器运行时所需
 
 每一个容器运行时，是以镜像为基础层，在其上创建一个当前容器的存储层，我们可以称这个为容器运行时读写而准备的存储层为 ==**容器存储层**==。
 
-按照 Docker 最佳实践的要求，容器不应该向其存储层内写入任何数据，容器存储层要保持无状态化。所有的文件写入操作，都应该使用 [数据卷(Volume)](https://yeasy.gitbook.io/docker_practice/data_management/volume)、或者 绑定宿主目录，在这些位置的读写会跳过容器存储层，直接对宿主（或网络存储）发生读写，其性能和稳定性更高。
+按照 Docker 最佳实践的要求，容器不应该向其存储层内写入任何数据，容器存储层要保持无状态化。所有的文件写入操作，都应该使用 [数据卷(Volume)](https://yeasy.gitbook.io/docker_practice/data_management/volume)、或者 [绑定宿主目录](https://yeasy.gitbook.io/docker_practice/data_management/bind-mounts)，在这些位置的读写会跳过容器存储层，直接对宿主（或网络存储）发生读写，其性能和稳定性更高。
+
+数据卷的生存周期独立于容器，容器消亡，数据卷不会消亡。因此，使用数据卷后，容器删除或者重新运行之后，数据却不会丢失。
+
+# 利用 commit 理解镜像构成
