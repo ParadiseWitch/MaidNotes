@@ -1,13 +1,17 @@
 ---
-date created: 2022-07-21 10:41
-
+date updated: 2022-07-21 10:51
+- tags:
+	- Docker
+- links:
+	- [前言 - Docker — 从入门到实践](https://yeasy.gitbook.io/docker_practice/)
+	- [Docker Dockerfile | 菜鸟教程](https://www.runoob.com/docker/docker-dockerfile.html)
 ---
 
-# Docker
+# #Docker
 
 # [Image 镜像](https://yeasy.gitbook.io/docker_practice/basic_concept/image)
 
-我们都知道，操作系统分为 内核 和 用户空间。对于 Linux 而言，内核启动后，会挂载 root 文件系统为其提供用户空间支持。而 Docker 镜像（Image），就相当于是一个 root 文件系统。比如官方镜像 ubuntu:18.04 就包含了完整的一套 Ubuntu 18.04 最小系统的 root 文件系统。
+我们都知道，操作系统分为 内核 和 用户空间。对于 Linux 而言，内核启动后，会挂载 root 文件系 统为其提供用户空间支持。而 Docker 镜像（Image），就相当于是一个 root 文件系统。比如官方镜像 ubuntu:18.04 就包含了完整的一套 Ubuntu 18.04 最小系统的 root 文件系统。
 Docker 镜像 是一个特殊的文件系统，除了提供容器运行时所需的程序、库、资源、配置等文件外，还包含了一些为运行时准备的一些配置参数（如匿名卷、环境变量、用户等）。镜像 不包含 任何动态数据，其内容在构建之后也不会被改变。
 
 ## [分层存储](https://yeasy.gitbook.io/docker_practice/basic_concept/image)
