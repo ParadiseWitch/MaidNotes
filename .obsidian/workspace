@@ -54,7 +54,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 190.5
+    "width": 202.5
   },
   "right": {
     "id": "5ddb3ee45eb87c1c",
@@ -63,7 +63,7 @@
       {
         "id": "6bf995a313c72b20",
         "type": "tabs",
-        "dimension": 42.597402597402585,
+        "dimension": 36.84210526315789,
         "children": [
           {
             "id": "b520a7b0acd748a6",
@@ -78,7 +78,7 @@
       {
         "id": "b2adebeb51f5f368",
         "type": "tabs",
-        "dimension": 57.4025974025974,
+        "dimension": 63.1578947368421,
         "children": [
           {
             "id": "bb40f79d7918a3c2",
@@ -151,12 +151,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.5
+    "width": 306
   },
   "active": "38e4b6e48ed70443",
   "lastOpenFiles": [
-    "Docker.md",
     "Linux.md",
+    "Docker.md",
     "Maid.md",
     "Journal/2022/W29/2022-07-21.md",
     "Journal/2022/2022-07.md",
