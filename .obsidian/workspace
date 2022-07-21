@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "c62dd003234e8d3e",
+        "id": "a8c131614daad873",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -54,7 +54,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252.5031967163086
+    "width": 190.5
   },
   "right": {
     "id": "5ddb3ee45eb87c1c",
@@ -63,6 +63,7 @@
       {
         "id": "6bf995a313c72b20",
         "type": "tabs",
+        "dimension": 42.59740259740259,
         "children": [
           {
             "id": "b520a7b0acd748a6",
@@ -77,6 +78,7 @@
       {
         "id": "b2adebeb51f5f368",
         "type": "tabs",
+        "dimension": 57.4025974025974,
         "children": [
           {
             "id": "bb40f79d7918a3c2",
@@ -84,7 +86,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +102,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,7 +114,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false
               }
             }
           },
@@ -123,9 +123,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Docker.md"
-              }
+              "state": {}
             }
           },
           {
@@ -145,17 +143,17 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 261.5
   },
-  "active": "c62dd003234e8d3e",
+  "active": "a8c131614daad873",
   "lastOpenFiles": [
+    "Docker.md",
     "Linux.md",
     "Maid.md",
-    "Docker.md",
     "Journal/2022/W29/2022-07-21.md",
     "Journal/2022/2022-07.md",
     "Journal/2022/2022.md",

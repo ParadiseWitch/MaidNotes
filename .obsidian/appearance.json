@@ -1,8 +1,8 @@
 {
   "baseFontSize": 16,
-  "theme": "moonstone",
+  "theme": "system",
   "translucency": false,
-  "cssTheme": "Things",
+  "cssTheme": "Atom",
   "enabledCssSnippets": [
     "diygod",
     "supercharged-links-gen"
