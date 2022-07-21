@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Journal/2022/2022.md",
+            "file": "Linux.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journal/2022/2022.md",
+                "file": "Linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Journal/2022/2022.md",
+                "file": "Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journal/2022/2022.md"
+                "file": "Linux.md"
               }
             }
           },
@@ -144,23 +144,24 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
-  "active": "5dd08362c813f11b",
+  "active": "7f1fb899688dfcb4",
   "lastOpenFiles": [
+    "Maid.md",
+    "Journal/2022/W29/2022-07-21.md",
+    "Journal/2022/2022-07.md",
+    "Journal/2022/2022.md",
     "Journal/2022/W28/2022-W28.md",
-    "未命名.md",
     "Templates/Daily.md",
     "Journal/2022/W28/2022-07-12.md",
-    "Journal/2022/2022.md",
     "Journal/2022/W29/2022-07-20.md",
     "Templates/Monthly.md",
-    "Templates/Metadata.md",
-    "Journal/2022/2022-07.md",
-    "${moment(tp.file.title).format('YYYY')}.md"
+    "Templates/Metadata.md"
   ]
 }
