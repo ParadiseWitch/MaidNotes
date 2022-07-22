@@ -7,8 +7,13 @@
         "id": "32965084369beaa8",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Docker.md",
+            "mode": "preview",
+            "backlinks": true,
+            "source": false
+          }
         }
       }
     ],
@@ -49,7 +54,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276
+    "width": 193
   },
   "right": {
     "id": "5ddb3ee45eb87c1c",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Docker.md"
+              }
             }
           },
           {
@@ -142,15 +151,16 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262
+    "width": 276,
+    "collapsed": true
   },
-  "active": "65abd180a6eb9ebd",
+  "active": "32965084369beaa8",
   "lastOpenFiles": [
+    "Journal/2022/W28/2022-07-12.md",
     "Docker.md",
     "Journal/2022/W29/2022-07-22.md",
     "Linux.md",
     "Maid.md",
-    "Journal/2022/W28/2022-07-12.md",
     "Journal/2022/W28/2022-W28.md",
     "Journal/2022/W29/2022-07-21.md",
     "Journal/2022/2022-07.md",
