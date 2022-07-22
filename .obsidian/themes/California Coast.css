@@ -4669,10 +4669,10 @@ body:not(.hider-frameless):not(.is-fullscreen):not(.is-mobile) {
   margin-left: 0;
   border-radius: 100px;
   /*height: 100%;*/
-  opacity: 0.8;
+  opacity: 1;
   align-items: center;
   padding: 5px;
-  margin: 0 5px;
+  margin: 0px 6px;
 }
 
 .titlebar-button-container.mod-right .titlebar-button.mod-minimize{
@@ -4688,15 +4688,12 @@ body:not(.hider-frameless):not(.is-fullscreen):not(.is-mobile) {
   margin-right: 15px;
 } 
 
-
 .titlebar-button.mod-close:hover {
   background-color: rgb(var(--red-rgb));
   color: rgb(var(--color-white-rgb));
 }
 
 .titlebar-button-container.mod-right .titlebar-button svg {
-  width: 10px;
-  height: 10px;
   display: none;
 }
 
