@@ -60,6 +60,6 @@ a:not(.internal-link) {
 	border: 1px solid var(--interactive-accent);
 }
 
-body:not(.hider-frameless):not(.is-fullscreen):not(.is-mobile) {
-    --titlebar-height: 0px;
+.titlebar {
+  display: none;
 }
