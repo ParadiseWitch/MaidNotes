@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker.md",
+            "file": "Linux.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker.md",
+                "file": "Linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker.md",
+                "file": "Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker.md"
+                "file": "Linux.md"
               }
             }
           },
@@ -154,7 +154,7 @@
     "width": 306,
     "collapsed": true
   },
-  "active": "65abd180a6eb9ebd",
+  "active": "55ebabbced2d7d9d",
   "lastOpenFiles": [
     "Journal/2022/W29/2022-07-22.md",
     "Maid.md",

@@ -21,6 +21,7 @@
   --interactive-accent-rgb: #f1fa8c;
   --font-family-editor: Avenir, Avenir Next, sans-serif;
   --font-family-preview: Avenir, Avenir Next, sans-serif;
+  --titlebar-height: 0px;
 }
 
 ::-webkit-scrollbar {
@@ -57,4 +58,8 @@ a:not(.internal-link) {
 
 .markdown-preview-view th, .markdown-preview-view td {
 	border: 1px solid var(--interactive-accent);
+}
+
+body:not(.hider-frameless):not(.is-fullscreen):not(.is-mobile) {
+    --titlebar-height: 0px;
 }
