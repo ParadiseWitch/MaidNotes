@@ -1762,9 +1762,21 @@ input.document-search-input.mod-no-match:not(:placeholder-shown):focus {
   color: var(--text-accent);
   text-decoration: none;
   display: inline-block;
-  background-color: #eee;
-  border-radius: 20px;
+  /*background-color: #eee;*/
+  /*border-radius: 20px;*/
 }
+.cm-hashtag.cm-hashtag-begin,
+.cm-hashtag.cm-hashtag-end{
+  background: #eee;
+  display: inline-block;
+}
+.cm-hashtag.cm-hashtag-begin{
+  border-radius: 10px 0 0 10px;
+}
+.cm-hashtag.cm-hashtag-end{
+  border-radius: 0 10px 10px 0;
+}
+
 .markdown-source-view.mod-cm6.cm-s-obsidian span.cm-formatting-task {
   color: var(--text-faint);
   font-weight: var(--bold-weight);
