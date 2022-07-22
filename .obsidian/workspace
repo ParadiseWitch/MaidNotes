@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Docker",
+                "query": "tag:#Dockerasdadad",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -50,13 +50,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 167,
-    "collapsed": true
+    "width": 167
   },
   "right": {
     "id": "5ddb3ee45eb87c1c",
@@ -156,7 +154,7 @@
     "width": 310,
     "collapsed": true
   },
-  "active": "8e8ac71dd9a831e6",
+  "active": "32965084369beaa8",
   "lastOpenFiles": [
     "Maid.md",
     "Docker.md",
