@@ -4615,6 +4615,7 @@ body:not(.hider-frameless):not(.is-fullscreen):not(.is-mobile) {
 
 .titlebar {
   line-height: 1;
+  display: none;
   height: var(--titlebar-height) !important;
   padding-top: 0 !important;
   background-color: var(--shade-5);
