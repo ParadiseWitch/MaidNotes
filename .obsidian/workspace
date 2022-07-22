@@ -50,8 +50,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -155,11 +154,11 @@
     "width": 310,
     "collapsed": true
   },
-  "active": "8e8ac71dd9a831e6",
+  "active": "32965084369beaa8",
   "lastOpenFiles": [
     "Maid.md",
-    "Docker.md",
     "Linux.md",
+    "Docker.md",
     "Journal/2022/W28/2022-07-12.md",
     "Journal/2022/W29/2022-07-22.md",
     "Journal/2022/W28/2022-W28.md",

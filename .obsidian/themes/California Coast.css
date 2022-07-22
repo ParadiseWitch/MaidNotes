@@ -1695,7 +1695,7 @@ input.document-search-input.mod-no-match:not(:placeholder-shown):focus {
   padding: 0 5px;
   border-radius: 5px;
   border: 1px #555 solid;
-  box-shadow: 0px 0px 15px #575757;
+  box-shadow: 0px 0px 15px #454545;
   color: var(--code-color);
 }
 .markdown-source-view.mod-cm6.cm-s-obsidian span.cm-comment {
@@ -1774,15 +1774,15 @@ input.document-search-input.mod-no-match:not(:placeholder-shown):focus {
   background-color: #1d694b73;
   font-size: 12px;
   display: inline-block;
-  border-top: 2px #1d694b solid;
-  border-bottom: 2px #1d694b solid;
+  /*border-top: 2px #1d694b solid;*/
+  /*border-bottom: 2px #1d694b solid;*/
 }
 .cm-hashtag.cm-hashtag-begin{
   border-radius: 5px 0 0 5px;
   position: relative;
   top: -1px;
   padding: 0 0 0 5px;
-  border-left: 2px #1d694b solid;
+  /*border-left: 2px #1d694b solid;*/
 }
 .cm-hashtag.cm-hashtag-end{
   border-radius: 0 5px 5px 0;
@@ -1829,7 +1829,8 @@ input.document-search-input.mod-no-match:not(:placeholder-shown):focus {
 }
 .markdown-source-view.mod-cm6.cm-s-obsidian .HyperMD-codeblock {
   font-size: calc(var(--editor-font-size) - 2px);
-  line-height: inherit;
+  line-height: 20px;
+  padding-left: 10px;
 }
 .markdown-source-view.mod-cm6.cm-s-obsidian .markdown-embed {
   padding-right: 1.5em;
