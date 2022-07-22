@@ -4803,6 +4803,9 @@ body:not(.hider-frameless):not(.is-fullscreen):not(.is-mobile) {
 .workspace-tabs .workspace-leaf {
   border: 0px;
 }
+.workspace-leaf.mod-active .nav-file.has-focus {
+  border: 1px solid var(--shade-5-opaque);
+}
 
 .workspace-tab-container-inner {
   border-radius: var(--radius-s);
