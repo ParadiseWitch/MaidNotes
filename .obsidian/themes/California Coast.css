@@ -1761,6 +1761,9 @@ input.document-search-input.mod-no-match:not(:placeholder-shown):focus {
 .markdown-source-view.mod-cm6.cm-s-obsidian span.cm-hashtag {
   color: var(--text-accent);
   text-decoration: none;
+  display: inline-block;
+  background-color: #eee;
+  border-radius: 20px;
 }
 .markdown-source-view.mod-cm6.cm-s-obsidian span.cm-formatting-task {
   color: var(--text-faint);
