@@ -702,7 +702,7 @@ settings:
   --shade-plus-darker: var(--shade-5);
   --shade-plus-darker-hsl: hsl(0, 0%, 95%);
   --background-primary: var(--shade-0-opaque);
-  --background-primary-alt: #474747;
+  --background-primary-alt: #eee;
   --background-secondary: var(--shade-3-opaque);
   --background-secondary-alt: var(--shade-3-opaque);
   --background-tertiary: var(--shade-3-opaque);
@@ -1830,7 +1830,7 @@ input.document-search-input.mod-no-match:not(:placeholder-shown):focus {
 .markdown-source-view.mod-cm6.cm-s-obsidian .HyperMD-codeblock {
   font-size: calc(var(--editor-font-size) - 2px);
   line-height: 20px;
-  padding-left: 10px;
+  padding-left: 23px;
 }
 .markdown-source-view.mod-cm6.cm-s-obsidian .markdown-embed {
   padding-right: 1.5em;
