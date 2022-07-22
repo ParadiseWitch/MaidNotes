@@ -4672,12 +4672,22 @@ body:not(.hider-frameless):not(.is-fullscreen):not(.is-mobile) {
   opacity: 0.8;
   align-items: center;
   padding: 5px;
-  margin: 0 10px;
+  margin: 0 5px;
 }
 
 .titlebar-button-container.mod-right .titlebar-button.mod-minimize{
-  background-color: #234fcd;
+  background-color: #61c354;
+}
+
+.titlebar-button-container.mod-right .titlebar-button.mod-maximize{
+  background-color: #f5bd4f;
+}
+
+.titlebar-button-container.mod-right .titlebar-button.mod-close{
+  background-color: #ed6a5e;
+  margin-right: 15px;
 } 
+
 
 .titlebar-button.mod-close:hover {
   background-color: rgb(var(--red-rgb));
@@ -4687,6 +4697,7 @@ body:not(.hider-frameless):not(.is-fullscreen):not(.is-mobile) {
 .titlebar-button-container.mod-right .titlebar-button svg {
   width: 10px;
   height: 10px;
+  display: none;
 }
 
 .workspace-ribbon {

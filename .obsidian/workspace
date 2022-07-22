@@ -151,10 +151,9 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306,
-    "collapsed": true
+    "width": 306
   },
-  "active": "55ebabbced2d7d9d",
+  "active": "65abd180a6eb9ebd",
   "lastOpenFiles": [
     "Maid.md",
     "Linux.md",
