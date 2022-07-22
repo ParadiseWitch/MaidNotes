@@ -4,7 +4,7 @@ date updated: 2022-07-21 18:19
 
 # Docker
 
-Tags: #Dockerasdadad #阿松大 #山豆根豆腐干和阿萨大大大苏打盛大 #阿斯顿法定
+Tags: #Docker
 
 - Links:
   - [前言 - Docker — 从入门到实践](https://yeasy.gitbook.io/docker_practice/)
@@ -60,7 +60,7 @@ sha256:07e33465974800ce65751acc279adc6ed2dc5ed4e0838f8b86f0c87aa1795214
 
 ## build命令
 
-```bash
+```sh
 docker build [选项] <上下文路径/URL/->
 
 # example

@@ -1765,7 +1765,7 @@ input.document-search-input.mod-no-match:not(:placeholder-shown):focus {
 }
 .cm-hashtag.cm-hashtag-begin,
 .cm-hashtag.cm-hashtag-end{
-  /*background-color: #ed6a5e;*/
+  background-color: #1d694b73;
   font-size: 12px;
   display: inline-block;
   border-top: 2px #1d694b solid;
