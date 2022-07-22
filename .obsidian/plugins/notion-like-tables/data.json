@@ -8079,6 +8079,166 @@
         "shouldUpdate": false,
         "viewType": "live-preview"
       }
+    },
+    "Journal/2022/W29/2022-07-21.md": {
+      "0": {
+        "data": {
+          "headers": [
+            {
+              "id": "3b425f90-eb90-45ed-af37-20de3d5b3198",
+              "initialIndex": 0,
+              "content": "Date",
+              "sortName": "default",
+              "width": "100px",
+              "type": "text"
+            },
+            {
+              "id": "b7239cc6-12e9-4447-900c-1307cb768713",
+              "initialIndex": 1,
+              "content": "OKR",
+              "sortName": "default",
+              "width": "100px",
+              "type": "text"
+            },
+            {
+              "id": "32561646-cbaa-4443-b900-d5b5bc034dd6",
+              "initialIndex": 2,
+              "content": "Weather",
+              "sortName": "default",
+              "width": "100px",
+              "type": "text"
+            },
+            {
+              "id": "b2cdab24-c8ae-4e5b-8272-04567d213aa6",
+              "initialIndex": 3,
+              "content": "Moon",
+              "sortName": "default",
+              "width": "100px",
+              "type": "text"
+            }
+          ],
+          "rows": [
+            {
+              "id": "5e17005f-6fcd-4f32-ab3f-7445ac1eec98",
+              "initialIndex": 0,
+              "creationTime": 1658461121563
+            }
+          ],
+          "cells": [
+            {
+              "id": "c8f864e0-25a0-479d-b144-53a186c4e40b",
+              "rowId": "5e17005f-6fcd-4f32-ab3f-7445ac1eec98",
+              "headerId": "3b425f90-eb90-45ed-af37-20de3d5b3198",
+              "type": "text",
+              "text": "&amp;lt;% `[[${moment(tp.file.title).format('YYYY')}]], [[${moment(tp.file.title).format('YYYY-MM')} \\"
+            },
+            {
+              "id": "8689fde1-c5e2-45bb-a82e-ca6b65aa85b9",
+              "rowId": "5e17005f-6fcd-4f32-ab3f-7445ac1eec98",
+              "headerId": "b7239cc6-12e9-4447-900c-1307cb768713",
+              "type": "text",
+              "text": "&lt;span class=\"math math-inline is-loaded\"&gt;&lt;mjx-container class=\"MathJax\" jax=\"CHTML\" style=\"position: relative;\"&gt;&lt;mjx-math class=\"MJX-TEX\" aria-hidden=\"true\"&gt;&lt;mjx-texatom texclass=\"ORD\"&gt;&lt;mjx-mi class=\"mjx-i\"&gt;&lt;mjx-c class=\"mjx-c1D45A TEX-I\"&gt;&lt;/mjx-c&gt;&lt;/mjx-mi&gt;&lt;mjx-mi class=\"mjx-i\"&gt;&lt;mjx-c class=\"mjx-c1D45C TEX-I\"&gt;&lt;/mjx-c&gt;&lt;/mjx-mi&gt;&lt;mjx-mi class=\"mjx-i\"&gt;&lt;mjx-c class=\"mjx-c1D45A TEX-I\"&gt;&lt;/mjx-c&gt;&lt;/mjx-mi&gt;&lt;mjx-mi class=\"mjx-i\"&gt;&lt;mjx-c class=\"mjx-c1D452 TEX-I\"&gt;&lt;/mjx-c&gt;&lt;/mjx-mi&gt;&lt;mjx-mi class=\"mjx-i\"&gt;&lt;mjx-c class=\"mjx-c1D45B TEX-I\"&gt;&lt;/mjx-c&gt;&lt;/mjx-mi&gt;&lt;mjx-mi class=\"mjx-i\"&gt;&lt;mjx-c class=\"mjx-c1D461 TEX-I\"&gt;&lt;/mjx-c&gt;&lt;/mjx-mi&gt;&lt;mjx-mo class=\"mjx-n\"&gt;&lt;mjx-c class=\"mjx-c28\"&gt;&lt;/mjx-c&gt;&lt;/mjx-mo&gt;&lt;mjx-mi class=\"mjx-i\"&gt;&lt;mjx-c class=\"mjx-c1D461 TEX-I\"&gt;&lt;/mjx-c&gt;&lt;/mjx-mi&gt;&lt;mjx-mi class=\"mjx-i\"&gt;&lt;mjx-c class=\"mjx-c1D45D TEX-I\"&gt;&lt;/mjx-c&gt;&lt;/mjx-mi&gt;&lt;mjx-mo class=\"mjx-n\"&gt;&lt;mjx-c class=\"mjx-c2E\"&gt;&lt;/mjx-c&gt;&lt;/mjx-mo&gt;&lt;mjx-mi class=\"mjx-i\" space=\"2\"&gt;&lt;mjx-c class=\"mjx-c1D453 TEX-I\"&gt;&lt;/mjx-c&gt;&lt;/mjx-mi&gt;&lt;mjx-mi class=\"mjx-i\"&gt;&lt;mjx-c class=\"mjx-c1D456 TEX-I\"&gt;&lt;/mjx-c&gt;&lt;/mjx-mi&gt;&lt;mjx-mi class=\"mjx-i\"&gt;&lt;mjx-c class=\"mjx-c1D459 TEX-I\"&gt;&lt;/mjx-c&gt;&lt;/mjx-mi&gt;&lt;mjx-mi class=\"mjx-i\"&gt;&lt;mjx-c class=\"mjx-c1D452 TEX-I\"&gt;&lt;/mjx-c&gt;&lt;/mjx-mi&gt;&lt;mjx-mo class=\"mjx-n\"&gt;&lt;mjx-c class=\"mjx-c2E\"&gt;&lt;/mjx-c&gt;&lt;/mjx-mo&gt;&lt;mjx-mi class=\"mjx-i\" space=\"2\"&gt;&lt;mjx-c class=\"mjx-c1D461 TEX-I\"&gt;&lt;/mjx-c&gt;&lt;/mjx-mi&gt;&lt;mjx-mi class=\"mjx-i\"&gt;&lt;mjx-c class=\"mjx-c1D456 TEX-I\"&gt;&lt;/mjx-c&gt;&lt;/mjx-mi&gt;&lt;mjx-mi class=\"mjx-i\"&gt;&lt;mjx-c class=\"mjx-c1D461 TEX-I\"&gt;&lt;/mjx-c&gt;&lt;/mjx-mi&gt;&lt;mjx-mi class=\"mjx-i\"&gt;&lt;mjx-c class=\"mjx-c1D459 TEX-I\"&gt;&lt;/mjx-c&gt;&lt;/mjx-mi&gt;&lt;mjx-mi class=\"mjx-i\"&gt;&lt;mjx-c class=\"mjx-c1D452 TEX-I\"&gt;&lt;/mjx-c&gt;&lt;/mjx-mi&gt;&lt;mjx-mo class=\"mjx-n\"&gt;&lt;mjx-c class=\"mjx-c29\"&gt;&lt;/mjx-c&gt;&lt;/mjx-mo&gt;&lt;mjx-mo class=\"mjx-n\"&gt;&lt;mjx-c class=\"mjx-c2E\"&gt;&lt;/mjx-c&gt;&lt;/mjx-mo&gt;&lt;mjx-mi class=\"mjx-i\" space=\"2\"&gt;&lt;mjx-c class=\"mjx-c1D453 TEX-I\"&gt;&lt;/mjx-c&gt;&lt;/mjx-mi&gt;&lt;mjx-mi class=\"mjx-i\"&gt;&lt;mjx-c class=\"mjx-c1D45C TEX-I\"&gt;&lt;/mjx-c&gt;&lt;/mjx-mi&gt;&lt;mjx-mi class=\"mjx-i\"&gt;&lt;mjx-c class=\"mjx-c1D45F TEX-I\"&gt;&lt;/mjx-c&gt;&lt;/mjx-mi&gt;&lt;mjx-mi class=\"mjx-i\"&gt;&lt;mjx-c class=\"mjx-c1D45A TEX-I\"&gt;&lt;/mjx-c&gt;&lt;/mjx-mi&gt;&lt;mjx-mi class=\"mjx-i\"&gt;&lt;mjx-c class=\"mjx-c1D44E TEX-I\"&gt;&lt;/mjx-c&gt;&lt;/mjx-mi&gt;&lt;mjx-mi class=\"mjx-i\"&gt;&lt;mjx-c class=\"mjx-c1D461 TEX-I\"&gt;&lt;/mjx-c&gt;&lt;/mjx-mi&gt;&lt;mjx-msup&gt;&lt;mjx-mo class=\"mjx-n\"&gt;&lt;mjx-c class=\"mjx-c28\"&gt;&lt;/mjx-c&gt;&lt;/mjx-mo&gt;&lt;mjx-script style=\"vertical-align: 0.363em;\"&gt;&lt;mjx-mo class=\"mjx-var\" size=\"s\"&gt;&lt;mjx-c class=\"mjx-c2032\"&gt;&lt;/mjx-c&gt;&lt;/mjx-mo&gt;&lt;/mjx-script&gt;&lt;/mjx-msup&gt;&lt;mjx-mi class=\"mjx-i\"&gt;&lt;mjx-c class=\"mjx-c1D440 TEX-I\"&gt;&lt;/mjx-c&gt;&lt;/mjx-mi&gt;&lt;mjx-mi class=\"mjx-i\"&gt;&lt;mjx-c class=\"mjx-c1D440 TEX-I\"&gt;&lt;/mjx-c&gt;&lt;/mjx-mi&gt;&lt;mjx-mi class=\"mjx-i\"&gt;&lt;mjx-c class=\"mjx-c1D440 TEX-I\"&gt;&lt;/mjx-c&gt;&lt;/mjx-mi&gt;&lt;mjx-msup&gt;&lt;mjx-mi class=\"mjx-i\"&gt;&lt;mjx-c class=\"mjx-c1D440 TEX-I\"&gt;&lt;/mjx-c&gt;&lt;/mjx-mi&gt;&lt;mjx-script style=\"vertical-align: 0.363em; margin-left: 0.054em;\"&gt;&lt;mjx-mo class=\"mjx-var\" size=\"s\"&gt;&lt;mjx-c class=\"mjx-c2032\"&gt;&lt;/mjx-c&gt;&lt;/mjx-mo&gt;&lt;/mjx-script&gt;&lt;/mjx-msup&gt;&lt;mjx-mo class=\"mjx-n\"&gt;&lt;mjx-c class=\"mjx-c29\"&gt;&lt;/mjx-c&gt;&lt;/mjx-mo&gt;&lt;/mjx-texatom&gt;&lt;mjx-mo class=\"mjx-n\"&gt;&lt;mjx-c class=\"mjx-c5D\"&gt;&lt;/mjx-c&gt;&lt;/mjx-mo&gt;&lt;mjx-mo class=\"mjx-n\"&gt;&lt;mjx-c class=\"mjx-c5D\"&gt;&lt;/mjx-c&gt;&lt;/mjx-mo&gt;&lt;mjx-mo class=\"mjx-n\"&gt;&lt;mjx-c class=\"mjx-c2C\"&gt;&lt;/mjx-c&gt;&lt;/mjx-mo&gt;&lt;mjx-mo class=\"mjx-n\" space=\"2\"&gt;&lt;mjx-c class=\"mjx-c5B\"&gt;&lt;/mjx-c&gt;&lt;/mjx-mo&gt;&lt;mjx-mo class=\"mjx-n\"&gt;&lt;mjx-c class=\"mjx-c5B\"&gt;&lt;/mjx-c&gt;&lt;/mjx-mo&gt;&lt;/mjx-math&gt;&lt;mjx-assistive-mml unselectable=\"on\" display=\"inline\"&gt;&lt;math xmlns=\"http://www.w3.org/1998/Math/MathML\"&gt;&lt;mrow data-mjx-texclass=\"ORD\"&gt;&lt;mi&gt;m&lt;/mi&gt;&lt;mi&gt;o&lt;/mi&gt;&lt;mi&gt;m&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mo stretchy=\"false\"&gt;(&lt;/mo&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mi&gt;p&lt;/mi&gt;&lt;mo&gt;.&lt;/mo&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mi&gt;l&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mo&gt;.&lt;/mo&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mi&gt;l&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mo stretchy=\"false\"&gt;)&lt;/mo&gt;&lt;mo&gt;.&lt;/mo&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mi&gt;o&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mi&gt;m&lt;/mi&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;msup&gt;&lt;mo stretchy=\"false\"&gt;(&lt;/mo&gt;&lt;mo data-mjx-alternate=\"1\"&gt;′&lt;/mo&gt;&lt;/msup&gt;&lt;mi&gt;M&lt;/mi&gt;&lt;mi&gt;M&lt;/mi&gt;&lt;mi&gt;M&lt;/mi&gt;&lt;msup&gt;&lt;mi&gt;M&lt;/mi&gt;&lt;mo data-mjx-alternate=\"1\"&gt;′&lt;/mo&gt;&lt;/msup&gt;&lt;mo stretchy=\"false\"&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;mo stretchy=\"false\"&gt;]&lt;/mo&gt;&lt;mo stretchy=\"false\"&gt;]&lt;/mo&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mo stretchy=\"false\"&gt;[&lt;/mo&gt;&lt;mo stretchy=\"false\"&gt;[&lt;/mo&gt;&lt;/math&gt;&lt;/mjx-assistive-mml&gt;&lt;/mjx-container&gt;&lt;/span&gt;{moment(tp.file.title).format('YYYY')}-W${moment(tp.file.title).format('WW')} \\"
+            },
+            {
+              "id": "02ab51ed-5295-4fe0-8ceb-6cc53353ef9e",
+              "rowId": "5e17005f-6fcd-4f32-ab3f-7445ac1eec98",
+              "headerId": "32561646-cbaa-4443-b900-d5b5bc034dd6",
+              "type": "text",
+              "text": "Week ${moment(tp.file.title).format('WW')}]], ${moment(tp.file.title).format('dddd')}` %&amp;gt;"
+            },
+            {
+              "id": "9f7e2acc-83da-416d-a834-01d4d56fee57",
+              "rowId": "5e17005f-6fcd-4f32-ab3f-7445ac1eec98",
+              "headerId": "b2cdab24-c8ae-4e5b-8272-04567d213aa6",
+              "type": "text",
+              "text": "[[🎯 OKR (May-Dec, 2022)]]"
+            }
+          ],
+          "tags": []
+        },
+        "shouldUpdate": false,
+        "viewType": "live-preview"
+      }
+    },
+    "Journal/2022/W28/2022-07-12.md": {
+      "0": {
+        "data": {
+          "headers": [
+            {
+              "id": "4c33cd43-f4f8-42aa-89fc-c6699a0af98f",
+              "initialIndex": 0,
+              "content": "Date",
+              "sortName": "default",
+              "width": "100px",
+              "type": "text"
+            },
+            {
+              "id": "f70b23ef-9669-4c05-a8e0-c51266e4a623",
+              "initialIndex": 1,
+              "content": "OKR",
+              "sortName": "default",
+              "width": "100px",
+              "type": "text"
+            },
+            {
+              "id": "bd64315c-3b41-461b-8f80-6c586b881a26",
+              "initialIndex": 2,
+              "content": "Weather",
+              "sortName": "default",
+              "width": "100px",
+              "type": "text"
+            },
+            {
+              "id": "4f2a2585-581d-4463-9bc1-29b341cc8d43",
+              "initialIndex": 3,
+              "content": "Moon",
+              "sortName": "default",
+              "width": "100px",
+              "type": "text"
+            }
+          ],
+          "rows": [
+            {
+              "id": "840b77dc-fa45-4b76-bd7c-0a2098a15f3d",
+              "initialIndex": 0,
+              "creationTime": 1658461316874
+            }
+          ],
+          "cells": [
+            {
+              "id": "d2be2774-be94-484f-be4a-dcd66199c712",
+              "rowId": "840b77dc-fa45-4b76-bd7c-0a2098a15f3d",
+              "headerId": "4c33cd43-f4f8-42aa-89fc-c6699a0af98f",
+              "type": "text",
+              "text": "2022, July, Week 28, Tuesday"
+            },
+            {
+              "id": "113c22f5-7b26-412e-aadb-bd90a2657573",
+              "rowId": "840b77dc-fa45-4b76-bd7c-0a2098a15f3d",
+              "headerId": "f70b23ef-9669-4c05-a8e0-c51266e4a623",
+              "type": "text",
+              "text": "[[🎯 OKR (May-Dec, 2022)]]"
+            },
+            {
+              "id": "55881bda-473a-41fd-a4b4-5e7244f6914f",
+              "rowId": "840b77dc-fa45-4b76-bd7c-0a2098a15f3d",
+              "headerId": "bd64315c-3b41-461b-8f80-6c586b881a26",
+              "type": "text",
+              "text": "Glasgow ☀️  +24°C"
+            },
+            {
+              "id": "bae762a8-f380-4989-ba34-db63ae11e511",
+              "rowId": "840b77dc-fa45-4b76-bd7c-0a2098a15f3d",
+              "headerId": "4f2a2585-581d-4463-9bc1-29b341cc8d43",
+              "type": "text",
+              "text": "🌕"
+            }
+          ],
+          "tags": []
+        },
+        "shouldUpdate": false,
+        "viewType": "live-preview"
+      }
     }
   },
   "focusedElement": {
