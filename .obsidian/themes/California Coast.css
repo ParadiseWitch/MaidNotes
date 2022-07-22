@@ -2421,7 +2421,7 @@ body:not(.is-grabbing) .nav-folder-title:hover {
 }
 
 .nav-file {
-  padding: 0;
+  padding: 0 5px;
 }
 
 .nav-file-tag {
@@ -4847,6 +4847,7 @@ body:not(.hider-frameless):not(.is-fullscreen):not(.is-mobile) {
 }
 .workspace-leaf.mod-active .nav-file.has-focus {
   border: 1px solid var(--shade-5-opaque);
+  background-color: #fff0;
 }
 
 .workspace-tab-container-inner {
