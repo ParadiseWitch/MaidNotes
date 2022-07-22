@@ -1649,7 +1649,7 @@ input.document-search-input.mod-no-match:not(:placeholder-shown):focus {
 }
 
 .markdown-source-view.mod-cm6 ::selection {
-  background-color: transparent;
+  background-color: #153556;
 }
 .markdown-source-view.mod-cm6 .cm-panels-top {
   border-bottom: 1px solid var(--background-modifier-border);
