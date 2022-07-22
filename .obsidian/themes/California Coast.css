@@ -4665,9 +4665,12 @@ body:not(.hider-frameless):not(.is-fullscreen):not(.is-mobile) {
   top: 0;
 }
 .titlebar-button-container.mod-right .titlebar-button {
+  width: 30px;
+  height: 30px;
   margin-left: 0;
-  border-radius: 0;
+  border-radius: 100px;
   height: 100%;
+  opacity: 0.8;
   align-items: center;
   padding: 2px 15px;
 }
@@ -4677,9 +4680,9 @@ body:not(.hider-frameless):not(.is-fullscreen):not(.is-mobile) {
   color: rgb(var(--color-white-rgb));
 }
 
-.titlebar-button svg {
-  width: 20px;
-  height: 31px;
+.titlebar-button-container.mod-right .titlebar-button svg {
+  width: 15px;
+  height: 35px;
 }
 
 .workspace-ribbon {
