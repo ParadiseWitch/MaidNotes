@@ -703,6 +703,7 @@ settings:
   --shade-plus-darker-hsl: hsl(0, 0%, 95%);
   --background-primary: var(--shade-0-opaque);
   --background-primary-alt: #eee;
+  --inline-code-border-color: #d5d5d5;
   --background-secondary: var(--shade-3-opaque);
   --background-secondary-alt: var(--shade-3-opaque);
   --background-tertiary: var(--shade-3-opaque);
@@ -800,6 +801,7 @@ settings:
   --dark-separator: hsl(0, 0%, 9%);
   --background-primary: var(--shade-0-opaque);
   --background-primary-alt: #474747;
+  --inline-code-border-color: #555;
   --background-secondary: var(--shade-3-opaque);
   --background-secondary-alt: var(--shade-3-opaque);
   --background-tertiary: var(--shade-3-opaque);
@@ -1694,8 +1696,7 @@ input.document-search-input.mod-no-match:not(:placeholder-shown):focus {
   display: inline-block;
   padding: 0 5px;
   border-radius: 5px;
-  border: 1px #555 solid;
-  box-shadow: 0px 0px 15px #454545;
+  border: 1px var(--inline-code-border-color) solid;
   color: var(--code-color);
 }
 .markdown-source-view.mod-cm6.cm-s-obsidian span.cm-comment {
