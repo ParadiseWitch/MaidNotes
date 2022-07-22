@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#asdasdaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaafgjhgfjghjhggggggggggggggggggggggggggggg",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -50,7 +50,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -154,7 +155,7 @@
     "width": 310,
     "collapsed": true
   },
-  "active": "32965084369beaa8",
+  "active": "8e8ac71dd9a831e6",
   "lastOpenFiles": [
     "Maid.md",
     "Docker.md",

@@ -1690,6 +1690,7 @@ input.document-search-input.mod-no-match:not(:placeholder-shown):focus {
   color: var(--text-muted);
 }
 .markdown-source-view.mod-cm6.cm-s-obsidian span.cm-inline-code {
+  background-color: red;
   color: var(--code-color);
 }
 .markdown-source-view.mod-cm6.cm-s-obsidian span.cm-comment {
