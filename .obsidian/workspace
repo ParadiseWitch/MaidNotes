@@ -54,7 +54,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 167
+    "width": 185
   },
   "right": {
     "id": "5ddb3ee45eb87c1c",
@@ -156,9 +156,9 @@
   },
   "active": "32965084369beaa8",
   "lastOpenFiles": [
-    "Maid.md",
     "Linux.md",
     "Docker.md",
+    "Maid.md",
     "Journal/2022/W28/2022-07-12.md",
     "Journal/2022/W29/2022-07-22.md",
     "Journal/2022/W28/2022-W28.md",
