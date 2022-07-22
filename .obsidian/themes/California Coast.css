@@ -842,7 +842,8 @@ settings:
   --quote-opening-modifier: var(--shade-70-opaque);
   --interactive-accent-rgb: var(--accent-rgb);
   --text-selection: hsl(var(--accent-h), var(--accent-s), calc(var(--accent-d) - 10%), 0.3);
-  --text-highlight-bg: rgba(255, 177, 80, 0.3);
+  --text-highlight-bg: 
+  /*rgba(255, 177, 80, 0.3);*/
   --text-highlight-bg-active: rgba(255, 255, 255, 0.1);
   --background-modifier-cover: rgba(20, 20, 20, 0.6);
   --opacity-translucency: 1;
@@ -2112,7 +2113,9 @@ input.document-search-input.mod-no-match:not(:placeholder-shown):focus {
 .markdown-source-view.mod-cm5 .cm-s-obsidian span.cm-formatting-highlight,
 .markdown-source-view.mod-cm5 .cm-s-obsidian span.cm-highlight,
 .markdown-source-view.mod-cm5 .cm-s-obsidian span.obsidian-search-match-highlight {
-  background-color: var(--text-highlight-bg);
+  /*background-color: var(--text-highlight-bg);*/
+  background-color: #fff7c3;
+  color: ;
 }
 .markdown-source-view.mod-cm5 .cm-s-obsidian .cm-em.cm-header {
   font-style: italic;
