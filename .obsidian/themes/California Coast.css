@@ -4800,6 +4800,9 @@ body:not(.hider-frameless):not(.is-fullscreen):not(.is-mobile) {
   background-color: transparent;
   box-shadow: none;
 }
+.workspace-tabs .workspace-leaf {
+  border: 0px;
+}
 
 .workspace-tab-container-inner {
   border-radius: var(--radius-s);
