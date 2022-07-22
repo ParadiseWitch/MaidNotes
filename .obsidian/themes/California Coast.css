@@ -4677,6 +4677,11 @@ body:not(.hider-frameless):not(.is-fullscreen):not(.is-mobile) {
   color: rgb(var(--color-white-rgb));
 }
 
+.titlebar-button svg {
+  width: 20px;
+  height: 31px;
+}
+
 .workspace-ribbon {
   background-color: transparent;
   width: unset;
