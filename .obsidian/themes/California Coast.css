@@ -2116,7 +2116,7 @@ input.document-search-input.mod-no-match:not(:placeholder-shown):focus {
 }
 .cm-s-obsidian span.cm-highlight{
   background-color: #fff7c3;
-  color: red;
+  color: #000 !important;
 }
 .markdown-source-view.mod-cm5 .cm-s-obsidian .cm-em.cm-header {
   font-style: italic;
