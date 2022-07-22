@@ -4098,6 +4098,10 @@ body {
   text-decoration: none;
 }
 
+.markdown-rendered button.copy-code-button {
+  color: #fff;
+}
+
 .theme-light :not(pre) > code[class*=language-],
 .theme-light pre[class*=language-] {
   background-color: var(--background-secondary-alt);

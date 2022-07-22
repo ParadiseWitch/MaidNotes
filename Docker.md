@@ -77,6 +77,5 @@ cat Dockerfile | docker build -
 docker build - < context.tar.gz
 ```
 
-## [Dockfile指令](https://yeasy.gitbook.io/docker_practice/image/dockerfile)
 
 ## [多阶段构建](https://yeasy.gitbook.io/docker_practice/image/multistage-builds)
