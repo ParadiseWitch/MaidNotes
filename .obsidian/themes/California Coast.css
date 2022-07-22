@@ -1765,24 +1765,24 @@ input.document-search-input.mod-no-match:not(:placeholder-shown):focus {
 }
 .cm-hashtag.cm-hashtag-begin,
 .cm-hashtag.cm-hashtag-end{
-    background-color:#27ceb4;
-    background-image:-webkit-linear-gradient(90deg, #27ceb4, #00aa90);
-    background-image:-moz-linear-gradient(90deg, #27ceb4, #00aa90);
-    background-image:-ms-linear-gradient(90deg, #27ceb4, #00aa90);
-    background-image:-o-linear-gradient(90deg, #27ceb4, #00aa90);
-    background-image:linear-gradient(90deg, #27ceb4, #00aa90);
+  /*background-color: #ed6a5e;*/
   font-size: 12px;
   display: inline-block;
+  border-top: 2px #1d694b solid;
+  border-bottom: 2px #1d694b solid;
 }
 .cm-hashtag.cm-hashtag-begin{
   border-radius: 5px 0 0 5px;
   position: relative;
   top: -1px;
   padding: 0 0 0 5px;
+  border-left: 2px #1d694b solid;
 }
 .cm-hashtag.cm-hashtag-end{
   border-radius: 0 5px 5px 0;
   padding: 0 5px 0 0;
+  border-right: 2px #1d694b solid;
+
 }
 
 .markdown-source-view.mod-cm6.cm-s-obsidian span.cm-formatting-task {
