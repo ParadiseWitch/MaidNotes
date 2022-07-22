@@ -4,16 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "55ebabbced2d7d9d",
+        "id": "32965084369beaa8",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Docker.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Docker.md"
-              }
+              "state": {}
             }
           },
           {
@@ -153,12 +144,12 @@
     "direction": "horizontal",
     "width": 262
   },
-  "active": "55ebabbced2d7d9d",
+  "active": "65abd180a6eb9ebd",
   "lastOpenFiles": [
+    "Docker.md",
     "Journal/2022/W29/2022-07-22.md",
     "Linux.md",
     "Maid.md",
-    "Docker.md",
     "Journal/2022/W28/2022-07-12.md",
     "Journal/2022/W28/2022-W28.md",
     "Journal/2022/W29/2022-07-21.md",
