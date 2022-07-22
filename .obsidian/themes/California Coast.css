@@ -702,7 +702,7 @@ settings:
   --shade-plus-darker: var(--shade-5);
   --shade-plus-darker-hsl: hsl(0, 0%, 95%);
   --background-primary: var(--shade-0-opaque);
-  --background-primary-alt: var(--shade-3-opaque);
+  --background-primary-alt: #474747;
   --background-secondary: var(--shade-3-opaque);
   --background-secondary-alt: var(--shade-3-opaque);
   --background-tertiary: var(--shade-3-opaque);
@@ -799,7 +799,7 @@ settings:
   --shade-plus-darker-hsl: hsl(0, 0%, 16%);
   --dark-separator: hsl(0, 0%, 9%);
   --background-primary: var(--shade-0-opaque);
-  --background-primary-alt: var(--shade-3-opaque);
+  --background-primary-alt: #474747;
   --background-secondary: var(--shade-3-opaque);
   --background-secondary-alt: var(--shade-3-opaque);
   --background-tertiary: var(--shade-3-opaque);
@@ -1690,7 +1690,11 @@ input.document-search-input.mod-no-match:not(:placeholder-shown):focus {
   color: var(--text-muted);
 }
 .markdown-source-view.mod-cm6.cm-s-obsidian span.cm-inline-code {
-  background-color: red;
+  /*background-color: red;*/
+  display: inline-block;
+  padding: 0 5px;
+  border-radius: 5px;
+  border: 5px #555 solid;
   color: var(--code-color);
 }
 .markdown-source-view.mod-cm6.cm-s-obsidian span.cm-comment {
@@ -3304,7 +3308,8 @@ img[alt*=sprf] {
   --background-modifier-cover: rgba(0, 0, 0, 0.25);
 }
 .is-mobile .app-container {
-  background-color: var(--background-primary-alt);
+  /*background-color: var(--background-primary-alt);*/
+  background-color: hsl(0, 0%, 97%);
 }
 .is-mobile .community-theme .modal-button-container button {
   margin: 0 0 8px;
