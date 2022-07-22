@@ -7999,6 +7999,86 @@
         "shouldUpdate": false,
         "viewType": "live-preview"
       }
+    },
+    "Journal/2022/W29/2022-07-22.md": {
+      "0": {
+        "data": {
+          "headers": [
+            {
+              "id": "daac3625-dbca-44b7-8c5a-628fd28bbd35",
+              "initialIndex": 0,
+              "content": "Date",
+              "sortName": "default",
+              "width": "100px",
+              "type": "text"
+            },
+            {
+              "id": "4ca78dc8-040d-4b59-84b0-76177b8b1ced",
+              "initialIndex": 1,
+              "content": "OKR",
+              "sortName": "default",
+              "width": "100px",
+              "type": "text"
+            },
+            {
+              "id": "0c854da4-e38b-48f6-ada2-9d4b3a56f630",
+              "initialIndex": 2,
+              "content": "Weather",
+              "sortName": "default",
+              "width": "100px",
+              "type": "text"
+            },
+            {
+              "id": "eca9ee7b-657a-472f-af9a-22a45715d2eb",
+              "initialIndex": 3,
+              "content": "Moon",
+              "sortName": "default",
+              "width": "100px",
+              "type": "text"
+            }
+          ],
+          "rows": [
+            {
+              "id": "5c2f10c7-6b2b-4d89-bceb-db7e520647e7",
+              "initialIndex": 0,
+              "creationTime": 1658454624384
+            }
+          ],
+          "cells": [
+            {
+              "id": "351e557a-3f20-4c7b-ac9b-921e58639809",
+              "rowId": "5c2f10c7-6b2b-4d89-bceb-db7e520647e7",
+              "headerId": "daac3625-dbca-44b7-8c5a-628fd28bbd35",
+              "type": "text",
+              "text": "&amp;lt;% `[[${moment(tp.file.title).format('YYYY')}]], [[${moment(tp.file.title).format('YYYY-MM')} \\"
+            },
+            {
+              "id": "b43a9c6a-e962-44c0-9b2c-2dbd60c9c5bb",
+              "rowId": "5c2f10c7-6b2b-4d89-bceb-db7e520647e7",
+              "headerId": "4ca78dc8-040d-4b59-84b0-76177b8b1ced",
+              "type": "text",
+              "text": "&lt;span class=\"math math-inline\"&gt;{moment(tp.file.title).format('MMMM')}]], [[&lt;/span&gt;{moment(tp.file.title).format('YYYY')}-W${moment(tp.file.title).format('WW')} \\"
+            },
+            {
+              "id": "34660d2c-31a0-4a77-abcb-eedc0266b8dc",
+              "rowId": "5c2f10c7-6b2b-4d89-bceb-db7e520647e7",
+              "headerId": "0c854da4-e38b-48f6-ada2-9d4b3a56f630",
+              "type": "text",
+              "text": "Week ${moment(tp.file.title).format('WW')}]], ${moment(tp.file.title).format('dddd')}` %&amp;gt;"
+            },
+            {
+              "id": "4cbb636b-94f2-4db4-9b00-f741082cf098",
+              "rowId": "5c2f10c7-6b2b-4d89-bceb-db7e520647e7",
+              "headerId": "eca9ee7b-657a-472f-af9a-22a45715d2eb",
+              "type": "text",
+              "text": "[[🎯 OKR (May-Dec, 2022)]]"
+            }
+          ],
+          "tags": []
+        },
+        "shouldUpdate": false,
+        "viewType": "live-preview"
+      }
     }
   },
   "focusedElement": {

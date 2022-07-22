@@ -151,19 +151,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306
+    "width": 306,
+    "collapsed": true
   },
   "active": "55ebabbced2d7d9d",
   "lastOpenFiles": [
+    "Maid.md",
+    "Journal/2022/W29/2022-07-22.md",
     "Docker.md",
     "Linux.md",
-    "Maid.md",
     "Journal/2022/W29/2022-07-21.md",
     "Journal/2022/2022-07.md",
     "Journal/2022/2022.md",
     "Journal/2022/W28/2022-W28.md",
     "Templates/Daily.md",
-    "Journal/2022/W28/2022-07-12.md",
-    "Journal/2022/W29/2022-07-20.md"
+    "Journal/2022/W28/2022-07-12.md"
   ]
 }
