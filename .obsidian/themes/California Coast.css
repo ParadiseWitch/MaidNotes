@@ -1759,13 +1759,14 @@ input.document-search-input.mod-no-match:not(:placeholder-shown):focus {
   font-weight: var(--bold-weight);
 }
 .markdown-source-view.mod-cm6.cm-s-obsidian span.cm-hashtag {
-  color: #fff;
+  color: #cdd3da;
   text-decoration: none;
   display: inline-block;
 }
 .cm-hashtag.cm-hashtag-begin,
 .cm-hashtag.cm-hashtag-end{
   background: #1d694b;
+  font-size: 12px;
   display: inline-block;
 }
 .cm-hashtag.cm-hashtag-begin{
