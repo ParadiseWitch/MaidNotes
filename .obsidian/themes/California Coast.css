@@ -1765,12 +1765,12 @@ input.document-search-input.mod-no-match:not(:placeholder-shown):focus {
 }
 .cm-hashtag.cm-hashtag-begin,
 .cm-hashtag.cm-hashtag-end{
-  background-color: #026873;
-  background-image: linear-gradient(90deg, rgba(255,255,255,.07) 50%, transparent 50%),
-    linear-gradient(90deg, rgba(255,255,255,.13) 50%, transparent 50%),
-    linear-gradient(90deg, transparent 50%, rgba(255,255,255,.17) 50%),
-    linear-gradient(90deg, transparent 50%, rgba(255,255,255,.19) 50%);
-  background-size: 13px, 29px, 37px, 53px;
+    background-color:#27ceb4;
+    background-image:-webkit-linear-gradient(90deg, #27ceb4, #00aa90);
+    background-image:-moz-linear-gradient(90deg, #27ceb4, #00aa90);
+    background-image:-ms-linear-gradient(90deg, #27ceb4, #00aa90);
+    background-image:-o-linear-gradient(90deg, #27ceb4, #00aa90);
+    background-image:linear-gradient(90deg, #27ceb4, #00aa90);
   font-size: 12px;
   display: inline-block;
 }
