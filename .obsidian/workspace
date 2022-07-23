@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Docker",
+                "query": "tag:#一致性哈希",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
