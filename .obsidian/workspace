@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#MySQL",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -117,7 +117,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false
               }
             }
           },
@@ -148,13 +148,13 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
     "width": 310
   },
-  "active": "8e8ac71dd9a831e6",
+  "active": "db37d82d685854e3",
   "lastOpenFiles": [
     "系统设计/一致性哈希.md",
     "系统设计/默克尔树（Merkle Trees）.md",
