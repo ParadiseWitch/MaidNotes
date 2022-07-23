@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "工具相关/Linux/Linux.md",
+            "file": "代码设计.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工具相关/Linux/Linux.md",
+                "file": "代码设计.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工具相关/Linux/Linux.md",
+                "file": "代码设计.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具相关/Linux/Linux.md"
+                "file": "代码设计.md"
               }
             }
           },
@@ -155,6 +155,7 @@
   },
   "active": "32965084369beaa8",
   "lastOpenFiles": [
+    "工具相关/Linux/Linux.md",
     "系统设计/默克尔树（Merkle Trees）.md",
     "系统设计/布隆过滤器.md",
     "工具相关/Docker/Docker.md",
@@ -163,7 +164,6 @@
     "系统设计/校验和（checksum）.md",
     "conflict-files-obsidian-git.md",
     "Maid.md",
-    "工具相关/Linux/Linux.md",
     "Journal/2022/W28/2022-07-12.md"
   ]
 }
