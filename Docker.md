@@ -3,20 +3,17 @@ date updated: 2022-07-21 18:19
 ---
 
 # Docker
-
 Tags: #Docker 
 
+> 本文有关Docker的基础知识和概念请到👇下面的链接或者搜索获得，此处不会详细记录。本文记录的基础知识只为防止忘记。
 - Links:
   - [前言 - Docker — 从入门到实践](https://yeasy.gitbook.io/docker_practice/)
   - [Docker Dockerfile | 菜鸟教程](https://www.runoob.com/docker/docker-dockerfile.html)
 
 # [Image 镜像](https://yeasy.gitbook.io/docker_practice/basic_concept/image)
-
-我们都知道，操作系统分为 内核 和 用户空间。对于 Linux 而言，内核启动后，会挂载 root 文件系 统为其提供用户空间支持。而 Docker 镜像（Image），就相当于是一个 root 文件系统。比如官方镜像 ubuntu:18.04 就包含了完整的一套 Ubuntu 18.04 最小系统的 root 文件系统。
-Docker 镜像 是一个特殊的文件系统，除了提供容器运行时所需的程序、库、资源、配置等文件外，还包含了一些为运行时准备的一些配置参数（如匿名卷、环境变量、用户等）。镜像 不包含 任何动态数据，其内容在构建之后也不会被改变。
+<u>Docker 镜像（Image），就相当于是一个 root 文件系统</u>。除了提供容器运行时所需的程序、库、资源、配置等文件外，还包含了一些为运行时准备的一些配置参数（如匿名卷、环境变量、用户等）。镜像 不包含 任何动态数据，其内容在构建之后也不会被改变。
 
 ## [分层存储](https://yeasy.gitbook.io/docker_practice/basic_concept/image)
-
 镜像构建时，会一层层构建，前一层是后一层的基础。每一层构建完就不会再发生改变，后一层上的任何改变只发生在自己这一层。
 比如，删除前一层文件的操作，实际不是真的删除前一层的文件，而是仅在当前层标记为该文件已删除。在最终容器运行的时候，虽然不会看到这个文件，但是实际上该文件会一直跟随镜像。
 
@@ -59,7 +56,6 @@ sha256:07e33465974800ce65751acc279adc6ed2dc5ed4e0838f8b86f0c87aa1795214
 [Docker Dockerfile | 菜鸟教程](https://www.runoob.com/docker/docker-dockerfile.html)
 
 ## build命令
-
 ```sh
 docker build [选项] <上下文路径/URL/->
 
