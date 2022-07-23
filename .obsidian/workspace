@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "默克尔树（Merkle Trees）.md",
+            "file": "系统设计/默克尔树（Merkle Trees）.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "默克尔树（Merkle Trees）.md",
+                "file": "系统设计/默克尔树（Merkle Trees）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "默克尔树（Merkle Trees）.md",
+                "file": "系统设计/默克尔树（Merkle Trees）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "默克尔树（Merkle Trees）.md"
+                "file": "系统设计/默克尔树（Merkle Trees）.md"
               }
             }
           },
@@ -155,15 +155,15 @@
   },
   "active": "32965084369beaa8",
   "lastOpenFiles": [
-    "系统设计/校验和（checksum）.md",
-    "系统设计/一致性哈希.md",
     "系统设计/布隆过滤器.md",
-    "Docker.md",
+    "工具相关/Docker/Docker.md",
+    "系统设计/一致性哈希.md",
+    "系统设计/Quorum.md",
+    "系统设计/默克尔树（Merkle Trees）.md",
+    "系统设计/校验和（checksum）.md",
     "conflict-files-obsidian-git.md",
     "Maid.md",
-    "Linux.md",
-    "Journal/2022/W28/2022-07-12.md",
-    "Journal/2022/W29/2022-07-22.md",
-    "Journal/2022/W28/2022-W28.md"
+    "工具相关/Linux/Linux.md",
+    "Journal/2022/W28/2022-07-12.md"
   ]
 }
