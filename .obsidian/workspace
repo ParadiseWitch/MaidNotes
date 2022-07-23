@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#分布式系统",
+                "query": "tag:#加权轮询",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -50,8 +50,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -154,7 +153,7 @@
     "direction": "horizontal",
     "width": 310
   },
-  "active": "32965084369beaa8",
+  "active": "65abd180a6eb9ebd",
   "lastOpenFiles": [
     "系统设计/布隆过滤器.md",
     "系统设计/校验和（checksum）.md",
