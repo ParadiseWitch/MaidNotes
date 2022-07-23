@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#MerkleTrees",
+                "query": "tag:#一致性哈希",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -155,11 +155,11 @@
   },
   "active": "32965084369beaa8",
   "lastOpenFiles": [
-    "系统设计/校验和（checksum）.md",
-    "系统设计/Quorum.md",
-    "系统设计/默克尔树（Merkle Trees）.md",
     "系统设计/布隆过滤器.md",
+    "系统设计/校验和（checksum）.md",
+    "系统设计/默克尔树（Merkle Trees）.md",
     "系统设计/一致性哈希.md",
+    "系统设计/Quorum.md",
     "代码设计.md",
     "工具相关/Linux/Linux.md",
     "工具相关/Docker/Docker.md",
