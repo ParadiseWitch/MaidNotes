@@ -90,6 +90,18 @@
           "lastUpdated": 1658390764541
         }
       }
+    },
+    "一致性哈希": {
+      "一致性哈希": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1658550250173
+        },
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1658550271402
+        }
+      }
     }
   }
 }
