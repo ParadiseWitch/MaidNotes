@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "系统设计/一致性哈希.md",
+            "file": "系统设计/校验和（checksum）.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#一致性哈希",
+                "query": "tag:#校验和（checksum）",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -50,7 +50,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "系统设计/一致性哈希.md",
+                "file": "系统设计/校验和（checksum）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "系统设计/一致性哈希.md",
+                "file": "系统设计/校验和（checksum）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "系统设计/一致性哈希.md"
+                "file": "系统设计/校验和（checksum）.md"
               }
             }
           },
@@ -154,10 +155,10 @@
     "width": 310,
     "collapsed": true
   },
-  "active": "32965084369beaa8",
+  "active": "8e8ac71dd9a831e6",
   "lastOpenFiles": [
-    "系统设计/布隆过滤器.md",
     "系统设计/一致性哈希.md",
+    "系统设计/布隆过滤器.md",
     "Docker.md",
     "conflict-files-obsidian-git.md",
     "Maid.md",

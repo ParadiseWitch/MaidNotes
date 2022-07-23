@@ -4954,7 +4954,7 @@ body:not(.hider-frameless):not(.is-fullscreen):not(.is-mobile) {
   background-color: var(--shade-plus-darker);
 }
 
-.view-action.mod-close-leaf{
+.workspace .mod-root.workspace-split.mod-vertical > div.workspace-leaf.stayopen .view-action.mod-close-leaf{
   margin-left:  0px;
 }
 
