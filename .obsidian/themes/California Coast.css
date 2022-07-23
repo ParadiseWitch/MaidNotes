@@ -4954,6 +4954,10 @@ body:not(.hider-frameless):not(.is-fullscreen):not(.is-mobile) {
   background-color: var(--shade-plus-darker);
 }
 
+.view-action.mod-close-leaf{
+  margin-left:  0px;
+}
+
 .workspace-leaf-content .view-content {
   padding: 10px;
 }
