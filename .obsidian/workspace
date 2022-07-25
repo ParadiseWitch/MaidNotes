@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#B",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -50,7 +50,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -154,7 +155,7 @@
     "width": 310,
     "collapsed": true
   },
-  "active": "32965084369beaa8",
+  "active": "8e8ac71dd9a831e6",
   "lastOpenFiles": [
     "Attachments/Pasted image 20220725090854.png",
     "工具相关/MySQL/MySQL索引原理和慢查询优化.md",
