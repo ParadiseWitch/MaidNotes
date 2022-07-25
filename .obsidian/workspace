@@ -131,14 +131,13 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 310,
-    "collapsed": true
+    "width": 226
   },
-  "active": "32965084369beaa8",
+  "active": "db37d82d685854e3",
   "lastOpenFiles": [
     "工具相关/MySQL/MySQL索引原理和慢查询优化.md",
     "算法与数据结构/数学题/829. 连续整数求和.md",
