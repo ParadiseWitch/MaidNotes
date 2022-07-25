@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "MySQL索引原理和慢查询优化.md",
+            "file": "工具相关/MySQL/MySQL索引原理和慢查询优化.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -50,8 +50,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MySQL索引原理和慢查询优化.md",
+                "file": "工具相关/MySQL/MySQL索引原理和慢查询优化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MySQL索引原理和慢查询优化.md",
+                "file": "工具相关/MySQL/MySQL索引原理和慢查询优化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MySQL索引原理和慢查询优化.md"
+                "file": "工具相关/MySQL/MySQL索引原理和慢查询优化.md"
               }
             }
           },
@@ -154,8 +153,10 @@
     "direction": "horizontal",
     "width": 310
   },
-  "active": "db37d82d685854e3",
+  "active": "65abd180a6eb9ebd",
   "lastOpenFiles": [
+    "Attachments/Pasted image 20220725090854.png",
+    "工具相关/MySQL/MySQL索引原理和慢查询优化.md",
     "系统设计/一致性哈希.md",
     "系统设计/默克尔树（Merkle Trees）.md",
     "系统设计/校验和（checksum）.md",
@@ -163,8 +164,6 @@
     "系统设计/Quorum.md",
     "代码设计.md",
     "工具相关/Linux/Linux.md",
-    "工具相关/Docker/Docker.md",
-    "conflict-files-obsidian-git.md",
-    "Maid.md"
+    "工具相关/Docker/Docker.md"
   ]
 }
