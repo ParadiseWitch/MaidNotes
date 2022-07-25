@@ -61,24 +61,8 @@
     "type": "split",
     "children": [
       {
-        "id": "6bf995a313c72b20",
-        "type": "tabs",
-        "dimension": 36.84210526315789,
-        "children": [
-          {
-            "id": "b520a7b0acd748a6",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          }
-        ]
-      },
-      {
         "id": "b2adebeb51f5f368",
         "type": "tabs",
-        "dimension": 63.1578947368421,
         "children": [
           {
             "id": "bb40f79d7918a3c2",
