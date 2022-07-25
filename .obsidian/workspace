@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "算法与数据结构/数学题/未命名.md",
+            "file": "算法与数据结构/数学题/829. 连续整数求和.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法与数据结构/数学题/未命名.md",
+                "file": "算法与数据结构/数学题/829. 连续整数求和.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法与数据结构/数学题/未命名.md",
+                "file": "算法与数据结构/数学题/829. 连续整数求和.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法与数据结构/数学题/未命名.md"
+                "file": "算法与数据结构/数学题/829. 连续整数求和.md"
               }
             }
           },
@@ -135,19 +135,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310
+    "width": 310,
+    "collapsed": true
   },
   "active": "32965084369beaa8",
   "lastOpenFiles": [
     "工具相关/MySQL/MySQL索引原理和慢查询优化.md",
-    "Attachments/Pasted image 20220725090854.png",
+    "算法与数据结构/数学题/829. 连续整数求和.md",
     "系统设计/一致性哈希.md",
+    "Attachments/Pasted image 20220725090854.png",
     "系统设计/默克尔树（Merkle Trees）.md",
     "系统设计/校验和（checksum）.md",
     "系统设计/布隆过滤器.md",
     "系统设计/Quorum.md",
     "代码设计.md",
-    "工具相关/Linux/Linux.md",
-    "工具相关/Docker/Docker.md"
+    "工具相关/Linux/Linux.md"
   ]
 }
