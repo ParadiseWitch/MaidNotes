@@ -8239,6 +8239,56 @@
         "shouldUpdate": false,
         "viewType": "live-preview"
       }
+    },
+    "算法与数据结构/数学题/未命名.md": {
+      "0": {
+        "data": {
+          "headers": [
+            {
+              "id": "e21057fb-78ff-4c96-8ec3-a6d752b217b6",
+              "initialIndex": 0,
+              "content": "难度",
+              "sortName": "default",
+              "width": "100px",
+              "type": "text"
+            },
+            {
+              "id": "88df7b65-1fd7-45d6-8b70-b3203e83acb0",
+              "initialIndex": 1,
+              "content": "",
+              "sortName": "default",
+              "width": "100px",
+              "type": "text"
+            }
+          ],
+          "rows": [
+            {
+              "id": "b6cab222-33a0-4e62-8322-6d3cfb7e4672",
+              "initialIndex": 0,
+              "creationTime": 1658714842389
+            }
+          ],
+          "cells": [
+            {
+              "id": "6fd39977-8c9e-412d-8450-fa6891d8f318",
+              "rowId": "b6cab222-33a0-4e62-8322-6d3cfb7e4672",
+              "headerId": "e21057fb-78ff-4c96-8ec3-a6d752b217b6",
+              "type": "text",
+              "text": "困难"
+            },
+            {
+              "id": "d3e53bc3-bcf8-4912-97f3-822200fac7cd",
+              "rowId": "b6cab222-33a0-4e62-8322-6d3cfb7e4672",
+              "headerId": "88df7b65-1fd7-45d6-8b70-b3203e83acb0",
+              "type": "text",
+              "text": "数学 枚举"
+            }
+          ],
+          "tags": []
+        },
+        "viewType": "reading",
+        "shouldUpdate": false
+      }
     }
   },
   "focusedElement": {
