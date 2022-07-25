@@ -1,7 +1,5 @@
 [
-  "quickadd",
   "dataview",
-  "periodic-notes",
   "table-editor-obsidian",
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-charts",
@@ -16,7 +14,6 @@
   "obsidian-git",
   "obsidian-auto-link-title",
   "customizable-page-header-buttons",
-  "supercharged-links-obsidian",
   "obsidian-style-settings",
   "markdown-prettifier",
   "notion-like-tables",
