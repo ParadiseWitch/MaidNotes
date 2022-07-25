@@ -17,5 +17,5 @@
   },
   "promptDelete": false,
   "readableLineLength": false,
-  "vimMode": true
+  "vimMode": false
 }
