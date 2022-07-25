@@ -151,9 +151,10 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310
+    "width": 310,
+    "collapsed": true
   },
-  "active": "65abd180a6eb9ebd",
+  "active": "32965084369beaa8",
   "lastOpenFiles": [
     "Attachments/Pasted image 20220725090854.png",
     "工具相关/MySQL/MySQL索引原理和慢查询优化.md",
