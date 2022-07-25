@@ -10,3 +10,6 @@ Links：
 - [MySQL索引原理及慢查询优化 - 美团技术团队](https://tech.meituan.com/2014/06/30/mysql-index.html)
 
 
+![[Pasted image 20220725090854.png]]
+
+
