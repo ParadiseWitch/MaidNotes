@@ -9,4 +9,5 @@ Link:
 
 > 摘要: MySQL有多种存储引擎，每种存储引擎有各自的优缺点，可以择优选择使用：MyISAM、InnoDB、MERGE、MEMORY(HEAP)、BDB(BerkeleyDB)、EXAMPLE、FEDERATED、ARCHIVE、CSV、BLACKHOLE。
 
-![Uploading file...vmghl]()
+## #MyISAM vs #InnoDB 
+![](https://raw.githubusercontent.com/ParadiseWitch/Images/master/img/InnoDB%20vs%20Myisam.png)
