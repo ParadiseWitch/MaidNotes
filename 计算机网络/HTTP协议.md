@@ -9,15 +9,17 @@ tags:
   - tcp
 
 ---
-
+# HTTP协议
 <details><summary>目录</summary>
 
-- [HTTP](#http)
-  - [HTTP/1.0](#http10)
-  - [HTTP/1.1](#http11)
-    - [Connection](#connection)
-    - [Pipelining](#pipelining)
-  - [HTTP2](#http2)
+- [HTTP协议](#http协议)
+  - [HTTP](#http)
+    - [HTTP/1.0](#http10)
+    - [HTTP/1.1](#http11)
+      - [Connection](#connection)
+      - [Pipelining](#pipelining)
+    - [HTTP2](#http2)
+- [浏览器的TCP连接限制](#浏览器的tcp连接限制)
 
 </details>
 
@@ -26,7 +28,8 @@ tags:
 
 ## HTTP
 ### HTTP/1.0
-在 HTTP/1.0 中，一个服务器在发送完一个 HTTP 响应后，会断开 TCP 链接。但是这样每次请求都会重新建立和断开 TCP 连接，代价过大。所以虽然标准中没有设定，某些服务器对 Connection: keep-alive 的 Header 进行了支持。意思是说，完成这个 HTTP 请求之后，不要断开 HTTP 请求使用的 TCP 连接。这样的好处是连接可以被重新使用，之后发送 HTTP 请求的时候不需要重新建立 TCP 连接，以及如果维持连接，那么 SSL 的开销也可以避免，两张图片是我短时间内两次访问 https://www.github.com 的时间统计：
+
+在 #HTTP /1.0 中，一个服务器在发送完一个 HTTP 响应后，会断开 #TCP 链接。但是这样每次请求都会重新建立和断开 TCP 连接，代价过大。所以虽然标准中没有设定，某些服务器对 Connection: keep-alive 的 Header 进行了支持。意思是说，完成这个 HTTP 请求之后，不要断开 HTTP 请求使用的 TCP 连接。这样的好处是连接可以被重新使用，之后发送 HTTP 请求的时候不需要重新建立 TCP 连接，以及如果维持连接，那么 SSL 的开销也可以避免，两张图片是我短时间内两次访问 https://www.github.com 的时间统计：
 
 ![](https://mmbiz.qpic.cn/mmbiz_jpg/6mychickmupVdy21SYjENM1pv2o9H822IBE0jlqGYA9QCErdqUSGhNPZmgHaLu0xibtlLHPzZNWUtA9oSCAHR38g/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
 
@@ -81,5 +84,5 @@ https://developers.google.com/web/tools/chrome-devtools/network/issues#queued-or
 
 如果图片都是 HTTPS 连接并且在同一个域名下，那么浏览器在 SSL 握手之后会和服务器商量能不能用 HTTP2，如果能的话就使用 Multiplexing 功能在这个连接上进行多路传输。不过也未必会所有挂在这个域名的资源都会使用一个 TCP 连接去获取，但是可以确定的是 Multiplexing 很可能会被用到。
 
-如果发现用不了 HTTP2 呢？或者用不了 HTTPS（现实中的 HTTP2 都是在 HTTPS 上实现的，所以也就是只能使用 HTTP/1.1）。那浏览器就会在一个 HOST 上建立多个 TCP 连接，连接数量的最大限制取决于浏览器设置，这些连接会在空闲的时候被浏览器用来发送新的请求，如果所有的连接都正在发送请求呢？那其他的请求就只能等等了。
+如果发现用不了 HTTP2 呢？或者用不了 #HTTPS（现实中的 HTTP2 都是在 HTTPS 上实现的，所以也就是只能使用 HTTP/1.1）。那浏览器就会在一个 HOST 上建立多个 TCP 连接，连接数量的最大限制取决于浏览器设置，这些连接会在空闲的时候被浏览器用来发送新的请求，如果所有的连接都正在发送请求呢？那其他的请求就只能等等了。
 
