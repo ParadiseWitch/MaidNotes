@@ -1,8 +1,18 @@
 ---
 date created: 2022-07-27 11:39
 ---
+<details><summary>目录</summary>
 
-#HTTP长连接
+- [HTTP长连接](#http长连接)
+- [HTTP的1.0版本](#http的10版本)
+  - [短连接](#短连接)
+  - [长连接](#长连接)
+- [HTTP/1.1 协议支持的长连接](#http11-协议支持的长连接)
+- [服务端HTTP长连接技术](#服务端http长连接技术)
+
+</details>
+
+# HTTP长连接
         HTTP属于 TCP/IP模型中的应用层协议，HTTP长连接和HTTP短连接，指的是 **传输层的TCP连接是否被多次使用**。
 # HTTP的1.0版本
 ## 短连接
