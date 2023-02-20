@@ -1,8 +1,8 @@
 ---
-title: 【hashcode】  
-author: Maid  
-date: 2020-12-20 17:05  
-categories: 散列表  
+title: 【hashcode】
+author: Maid
+date: 2020-12-20 17:05
+categories: 散列表
 tags: [散列表]  [hashcode]
 
 ---
@@ -29,10 +29,10 @@ tags: [散列表]  [hashcode]
 - [jdk8中对HashMap做了哪些改变](#jdk8中对hashmap做了哪些改变)
 - [HashMap与其他集合数据类型比较](#hashmap与其他集合数据类型比较)
   - [HashMap，LinkedHashMap，TreeMap 有什么区别](#hashmaplinkedhashmaptreemap-有什么区别)
-  - [HashMap & TreeMap & LinkedHashMap 使用场景](#hashmap--treemap--linkedhashmap-使用场景)
+  - [HashMap \& TreeMap \& LinkedHashMap 使用场景](#hashmap--treemap--linkedhashmap-使用场景)
   - [HashMap 和 HashTable 有什么区别](#hashmap-和-hashtable-有什么区别)
   - [Java 中的另一个线程安全的与 HashMap 极其类似的类是什么？同样是线程安全，它与 HashTable 在线程同步上有什么不同](#java-中的另一个线程安全的与-hashmap-极其类似的类是什么同样是线程安全它与-hashtable-在线程同步上有什么不同)
-  - [HashMap & ConcurrentHashMap 的区别](#hashmap--concurrenthashmap-的区别)
+  - [HashMap \& ConcurrentHashMap 的区别](#hashmap--concurrenthashmap-的区别)
   - [为什么 ConcurrentHashMap 比 HashTable 效率要高](#为什么-concurrenthashmap-比-hashtable-效率要高)
   - [针对 ConcurrentHashMap 锁机制具体分析（JDK 1.7 VS JDK 1.8）](#针对-concurrenthashmap-锁机制具体分析jdk-17-vs-jdk-18)
   - [ConcurrentHashMap 在 JDK 1.8 中，为什么要使用内置锁 synchronized 来代替重入锁 ReentrantLock](#concurrenthashmap-在-jdk-18-中为什么要使用内置锁-synchronized-来代替重入锁-reentrantlock)
@@ -54,12 +54,12 @@ A：哈希表结构（链表散列：数组+链表）实现，结合数组和链
 transient Node<K,V>\[\] table;
 ```
 ## HashMap 的工作原理
-HashMap 底层是 hash 数组和单向链表实现，数组中的每个元素都是链表，由 Node 内部类（实现 Map.Entry接口）实现，HashMap 通过 put & get 方法存储和获取。  
+HashMap 底层是 hash 数组和单向链表实现，数组中的每个元素都是链表，由 Node 内部类（实现 Map.Entry接口）实现，HashMap 通过 put & get 方法存储和获取。
 存储对象时，将 K/V 键值传给 put() 方法：
 
 1. 调用 hash(K) 方法计算 K 的 hash 值，然后结合数组长度，计算得数组下标；
 2. 调整数组大小（当容器中的元素个数大于 capacity * loadfactor 时，容器会进行扩容resize 为 2n）；
-3. 
+3.
    - 如果 K 的 hash 值在 HashMap 中不存在，则执行插入，若存在，则发生碰撞；
    - 如果 K 的 hash 值在 HashMap 中存在，且它们两者 equals 返回 true，则更新键值对；
    - 如果 K 的 hash 值在 HashMap 中存在，且它们两者 equals 返回 false，则插入链表的尾部（尾插法）或者红黑树中（树的添加方式）。
@@ -68,19 +68,19 @@ HashMap 底层是 hash 数组和单向链表实现，数组中的每个元素都
 
 获取对象时，将 K 传给 get() 方法：
 1. 调用 hash(K) 方法（计算 K 的 hash 值）从而获取该键值所在链表的数组下标；
-2. 顺序遍历链表，equals()方法查找相同 Node 链表中 K 值对应的 V 值。  
+2. 顺序遍历链表，equals()方法查找相同 Node 链表中 K 值对应的 V 值。
 
 hashCode 是`定位`的，存储位置；equals是`定性`的，比较两者是否相等。
 
 ## HashMap中put方法的过程
-调用哈希函数获取Key对应的hash值，再计算其数组下标；  
-如果没有出现哈希冲突，则直接放入数组；如果出现哈希冲突，则以链表的方式放在链表后面；  
-如果链表长度超过阀值( TREEIFY THRESHOLD==8)，就把链表转成红黑树，链表长度低于6，就把红黑树转回链表;   
-如果结点的key已经存在，则替换其value即可；  
-如果集合中的键值对大于12，调用resize方法进行数组扩容。”  
+调用哈希函数获取Key对应的hash值，再计算其数组下标；
+如果没有出现哈希冲突，则直接放入数组；如果出现哈希冲突，则以链表的方式放在链表后面；
+如果链表长度超过阀值( TREEIFY THRESHOLD==8)，就把链表转成红黑树，链表长度低于6，就把红黑树转回链表;
+如果结点的key已经存在，则替换其value即可；
+如果集合中的键值对大于12，调用resize方法进行数组扩容。”
 
 ## HashMap的容量
-hHashMap的容量分为table数组的容量和链表/红黑树的容量  
+hHashMap的容量分为table数组的容量和链表/红黑树的容量
 ### table数组的容量
 1. table 数组大小是由 capacity 这个参数确定的，默认是16，也可以构造时传入，最大限制是1<<30；
 2. loadFactor 是装载因子，主要目的是用来确认table 数组是否需要动态扩展，默认值是0.75，比如table 数组大小为 16，装载因子为 0.75 时，threshold 就是12，当 table 的实际大小超过 12 时，table就需要动态扩容；
@@ -88,7 +88,7 @@ hHashMap的容量分为table数组的容量和链表/红黑树的容量
 4. 如果数据很大的情况下，扩展时将会带来性能的损失，在性能要求很高的地方，这种损失很可能很致命。
 
 ### 链表/红黑树的容量
-如果链表长度超过阀值( TREEIFY THRESHOLD==8)，就把链表转成红黑树，链表长度低于6，就把红黑树转回链表;   
+如果链表长度超过阀值( TREEIFY THRESHOLD==8)，就把链表转成红黑树，链表长度低于6，就把红黑树转回链表;
 
 
 ## hash 的实现
@@ -139,9 +139,9 @@ JDK 1.8 中，是通过 `hashCode()` 的高 16 位异或低 16 位实现的：`(
 而红黑树在插入新数据后可能需要通过左旋，右旋、变色这些操作来保持平衡，引入红黑树就是为了查找数据快，解决链表查询深度的问题，我们知道红黑树属于平衡二叉树，但是为了保持“平衡”是需要付出代价的，但是该代价所损耗的资源要比遍历线性链表要少，所以当长度大于8的时候，会使用红黑树，如果链表长度很短的话，根本不需要引入红黑树，引入反而会慢。
 
 # jdk8中对HashMap做了哪些改变
-在java 1.8中，如果链表的长度超过了8，那么链表将转换为红黑树。（桶的数量必须大于64，小于64的时候只会扩容）  
-发生hash碰撞时，java 1.7 会在链表的头部插入，而java 1.8会在链表的尾部插入  
-在java 1.8中，Entry被Node替代(换了一个马甲。  
+在java 1.8中，如果链表的长度超过了8，那么链表将转换为红黑树。（桶的数量必须大于64，小于64的时候只会扩容）
+发生hash碰撞时，java 1.7 会在链表的头部插入，而java 1.8会在链表的尾部插入
+在java 1.8中，Entry被Node替代(换了一个马甲。
 
 
 # HashMap与其他集合数据类型比较
@@ -194,7 +194,7 @@ JDK 1.8 中，采用Node + CAS + Synchronized来保证并发安全。取消类 S
 1. 粒度降低了；
 2. JVM 开发团队没有放弃 synchronized，而且基于 JVM 的 synchronized 优化空间更大，更加自然。
 3. 在大量的数据操作下，对于 JVM 的内存压力，基于 API 的 ReentrantLock 会开销更多的内存。
-   
+
 ## ConcurrentHashMap 简单介绍
 ### 重要的常量：
 ```java
@@ -211,25 +211,25 @@ private transient volatile int sizeCtl;
 
 ### 存储对象时（put() 方法）：
 
-- 如果没有初始化，就调用 initTable() 方法来进行初始化；  
-- 如果没有 hash 冲突就直接 CAS 无锁插入；  
-- 如果需要扩容，就先进行扩容；  
+- 如果没有初始化，就调用 initTable() 方法来进行初始化；
+- 如果没有 hash 冲突就直接 CAS 无锁插入；
+- 如果需要扩容，就先进行扩容；
 - 如果存在 hash 冲突，就加锁来保证线程安全，两种情况：一种是链表形式就直接遍历到尾端插入，一种是红黑树就按照红黑树结构插入；
 - 如果该链表的数量大于阀值 8，就要先转换成红黑树的结构，break 再一次进入循环
 - 如果添加成功就调用 addCount() 方法统计 size，并且检查是否需要扩容。
 
-### 扩容方法 
+### 扩容方法
 - transfer()：默认容量为 16，扩容时，容量变为原来的两倍。
 - helpTransfer()：调用多个工作线程一起帮助进行扩容，这样的效率就会更高。
 
 ### 获取对象时（get()方法）：
 
-计算 hash 值，定位到该 table 索引位置，如果是首结点符合就返回；  
-如果遇到扩容时，会调用标记正在扩容结点 ForwardingNode.find()方法，查找该结点，匹配就返回；  
+计算 hash 值，定位到该 table 索引位置，如果是首结点符合就返回；
+如果遇到扩容时，会调用标记正在扩容结点 ForwardingNode.find()方法，查找该结点，匹配就返回；
 以上都不符合的话，就往下遍历结点，匹配就返回，否则最后就返回 null。
 
 ### ConcurrentHashMap 的并发度是什么
-程序运行时能够同时更新 ConccurentHashMap 且不产生锁竞争的最大线程数。默认为 16，且可以在构造函数中设置。  
+程序运行时能够同时更新 ConccurentHashMap 且不产生锁竞争的最大线程数。默认为 16，且可以在构造函数中设置。
 当用户设置并发度时，ConcurrentHashMap 会使用大于等于该值的最小2幂指数作为实际并发度（假如用户设置并发度为17，实际并发度则为32）
 
 
