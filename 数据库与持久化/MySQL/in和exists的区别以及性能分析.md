@@ -71,59 +71,59 @@ select name from student where name='zhang' or name='wang' or name='zhao'
 
 # 性能分析：
 
-## EXISTS的执行流程 
+## EXISTS的执行流程
 ```sql
-select * from t1 where exists ( select null from t2 where y = x ) 
+select * from t1 where exists ( select null from t2 where y = x )
 ```
 
 可以理解为:
 ```
-for x in ( select * from t1 ) loop 
-if ( exists ( select null from t2 where y = x.x ) then 
-OUTPUT THE RECORD 
-end if 
-end loop 
+for x in ( select * from t1 ) loop
+if ( exists ( select null from t2 where y = x.x ) then
+OUTPUT THE RECORD
+end if
+end loop
 ```
 
-> 对于in 和 exists的性能区别:   
-如果子查询得出的结果集记录较少，主查询中的表较大且又有索引时应该用in,反之如果外层的主查询记录较少，子查询中的表大，又有索引时使用exists。 
-其实我们区分in和exists主要是造成了驱动顺序的改变（这是性能变化的关键），如果是exists，那么以外层表为驱动表，先被访问，如果是IN，那么先执行子查询，所以我们会以驱动表的快速返回为目标，那么就会考虑到索引及结果集的关系了 
+> 对于in 和 exists的性能区别:
+如果子查询得出的结果集记录较少，主查询中的表较大且又有索引时应该用in,反之如果外层的主查询记录较少，子查询中的表大，又有索引时使用exists。
+其实我们区分in和exists主要是造成了驱动顺序的改变（这是性能变化的关键），如果是exists，那么以外层表为驱动表，先被访问，如果是IN，那么先执行子查询，所以我们会以驱动表的快速返回为目标，那么就会考虑到索引及结果集的关系了
 
 
-另外IN时不对NULL进行处理 
-如： select 1 from dual where null in (0,1,2,null) 为空 
+另外IN时不对NULL进行处理
+如： select 1 from dual where null in (0,1,2,null) 为空
 
-## NOT IN 与NOT EXISTS: 
-NOT EXISTS的执行流程 
+## NOT IN 与NOT EXISTS:
+NOT EXISTS的执行流程
 ```
-select ..... from rollup R  where not exists ( select 'Found' from title T where R.source_id = T.Title_ID); 
+select ..... from rollup R  where not exists ( select 'Found' from title T where R.source_id = T.Title_ID);
 ```
-可以理解为: 
+可以理解为:
 ```
-for x in ( select * from rollup ) loop 
-if ( not exists ( that query ) ) then 
-OUTPUT 
-end if; 
-end loop; 
+for x in ( select * from rollup ) loop
+if ( not exists ( that query ) ) then
+OUTPUT
+end if;
+end loop;
 ```
 
-注意:NOT EXISTS 与 NOT IN 不能完全互相替换，看具体的需求。如果选择的列可以为空，则不能被替换。 
+注意:NOT EXISTS 与 NOT IN 不能完全互相替换，看具体的需求。如果选择的列可以为空，则不能被替换。
 
 
-例如下面语句，看他们的区别： 
+例如下面语句，看他们的区别：
 ```
-select x,y from t; 
+select x,y from t;
 ```
 查询x和y数据如下：
 ```
-x y 
------- ------ 
-1 3 
-3 1 
-1 2 
-1 1 
-3 1 
-5 
+x y
+------ ------
+1 3
+3 1
+1 2
+1 1
+3 1
+5
 ```
 
 使用not in 和not exists查询结果如下：
@@ -137,72 +137,72 @@ select * from t where not exists (select null from t t2 where t2.y=t.x ) ;
 ```
 查询结果为：
 ```
-x y 
------- ------ 
-5 NULL 
+x y
+------ ------
+5 NULL
 ```
 
-所以要具体需求来决定 
+所以要具体需求来决定
 
 
-对于not in 和 not exists的性能区别： 
-not in 只有当子查询中，select 关键字后的字段有not null约束或者有这种暗示时用not in,另外如果主查询中表大，子查询中的表小但是记录多，则应当使用not in,并使用anti hash join. 
-如果主查询表中记录少，子查询表中记录多，并有索引，可以使用not exists,另外not in最好也可以用/*+ HASH_AJ */或者外连接+is null 
-NOT IN 在基于成本的应用中较好 
+对于not in 和 not exists的性能区别：
+not in 只有当子查询中，select 关键字后的字段有not null约束或者有这种暗示时用not in,另外如果主查询中表大，子查询中的表小但是记录多，则应当使用not in,并使用anti hash join.
+如果主查询表中记录少，子查询表中记录多，并有索引，可以使用not exists,另外not in最好也可以用/*+ HASH_AJ */或者外连接+is null
+NOT IN 在基于成本的应用中较好
 
 
-比如: 
-```
-select ..... 
-from rollup R 
-where not exists ( select 'Found' from title T 
-where R.source_id = T.Title_ID); 
-```
-
-改成（佳） 
-```
-select ...... 
-from title T, rollup R 
-where R.source_id = T.Title_id(+) 
-and T.Title_id is null; 
+比如:
+```sql
+select .....
+from rollup R
+where not exists ( select 'Found' from title T
+where R.source_id = T.Title_ID);
 ```
 
-或者（佳） 
-```
-sql> select /*+ HASH_AJ */ ... 
-from rollup R 
-where ource_id NOT IN ( select ource_id 
-from title T 
-where ource_id IS NOT NULL ) 
+改成（佳）
+```sql
+select ......
+from title T, rollup R
+where R.source_id = T.Title_id(+)
+and T.Title_id is null;
 ```
 
-讨论IN和EXISTS。 
+或者（佳）
 ```
-select * from t1 where x in ( select y from t2 ) 
+sql> select /*+ HASH_AJ */ ...
+from rollup R
+where ource_id NOT IN ( select ource_id
+from title T
+where ource_id IS NOT NULL )
 ```
-事实上可以理解为： 
+
+讨论IN和EXISTS。
 ```
-select * 
-from t1, ( select distinct y from t2 ) t2 
-where t1.x = t2.y; 
+select * from t1 where x in ( select y from t2 )
 ```
-——如果你有一定的SQL优化经验，从这句很自然的可以想到t2绝对不能是个大表，因为需要对t2进行全表的“唯一排序”，如果t2很大这个排序的性能是 不可忍受的。但是t1可以很大，为什么呢？最通俗的理解就是因为t1.x=t2.y可以走索引。但这并不是一个很好的解释。试想，如果t1.x和t2.y 都有索引，我们知道索引是种有序的结构，因此t1和t2之间最佳的方案是走merge join。另外，如果t2.y上有索引，对t2的排序性能也有很大提高。 
+事实上可以理解为：
 ```
-select * from t1 where exists ( select null from t2 where y = x ) 
+select *
+from t1, ( select distinct y from t2 ) t2
+where t1.x = t2.y;
 ```
-可以理解为： 
+——如果你有一定的SQL优化经验，从这句很自然的可以想到t2绝对不能是个大表，因为需要对t2进行全表的“唯一排序”，如果t2很大这个排序的性能是 不可忍受的。但是t1可以很大，为什么呢？最通俗的理解就是因为t1.x=t2.y可以走索引。但这并不是一个很好的解释。试想，如果t1.x和t2.y 都有索引，我们知道索引是种有序的结构，因此t1和t2之间最佳的方案是走merge join。另外，如果t2.y上有索引，对t2的排序性能也有很大提高。
 ```
-for x in ( select * from t1 ) 
-loop 
-if ( exists ( select null from t2 where y = x.x ) 
-then 
-OUTPUT THE RECORD! 
-end if 
-end loop 
+select * from t1 where exists ( select null from t2 where y = x )
 ```
-——这个更容易理解，t1永远是个表扫描！因此t1绝对不能是个大表，而t2可以很大，因为y=x.x可以走t2.y的索引。 
-综合以上对IN/EXISTS的讨论，我们可以得出一个基本通用的结论：IN适合于外表大而内表小的情况；EXISTS适合于外表小而内表大的情况。 
-我们要根据实际的情况做相应的优化，不能绝对的说谁的效率高谁的效率低，所有的事都是相对的  
+可以理解为：
+```
+for x in ( select * from t1 )
+loop
+if ( exists ( select null from t2 where y = x.x )
+then
+OUTPUT THE RECORD!
+end if
+end loop
+```
+——这个更容易理解，t1永远是个表扫描！因此t1绝对不能是个大表，而t2可以很大，因为y=x.x可以走t2.y的索引。
+综合以上对IN/EXISTS的讨论，我们可以得出一个基本通用的结论：IN适合于外表大而内表小的情况；EXISTS适合于外表小而内表大的情况。
+我们要根据实际的情况做相应的优化，不能绝对的说谁的效率高谁的效率低，所有的事都是相对的
 
 -----------------------------------------------------------------------
 
@@ -211,12 +211,12 @@ end loop
 
 ## in查询实现
 ```sql
-select * from product 
+select * from product
 where id in (select rela_id from product_rela where id = '1');
 ```
 ## 给in查询包一层temp
 ```sql
-select * from product 
+select * from product
 where id in (select rela_id from (select rela_id from product_rela where id = '1') as temp);
 ```
 
@@ -224,14 +224,14 @@ where id in (select rela_id from (select rela_id from product_rela where id = '1
 
 ## 使用exists查询代替in查询
 ```sql
-select * from product a 
-where EXISTS (select rela_id from product_rela b where a.id=b.rela_id and b.id = '1'); 
+select * from product a
+where EXISTS (select rela_id from product_rela b where a.id=b.rela_id and b.id = '1');
 ```
 
 ## 将in查询改为连接查询
 ```sql
-select * from product a 
-INNER JOIN product_rela b 
+select * from product a
+INNER JOIN product_rela b
 on a.id= b.rela_id and b.id='1';
 ```
 
